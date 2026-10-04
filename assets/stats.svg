@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-labelledby="title desc">
+<title id="title">Benedictus RH public GitHub dashboard</title>
+<desc id="desc">Public original projects, stars, forks, published releases, source language shares, and most-starred projects. Forks and the profile repository are excluded.</desc>
+<rect x=".5" y=".5" width="999" height="549" rx="18" fill="#0b1220" stroke="#26394a"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="32" y="43" font-size="13" fill="#5eead4" font-weight="600">PUBLIC WORK / AT A GLANCE</text>
+<text x="770" y="43" font-size="12" fill="#93a8bc" font-weight="400">Updated 04 Oct 2026 UTC</text>
+<rect x="32" y="66" width="222" height="106" rx="10" fill="#111e2d" stroke="#26394a"/>
+<text x="50" y="113" font-size="34" fill="#f1f5f9" font-weight="700">6</text>
+<text x="50" y="146" font-size="14" fill="#b8c7d8" font-weight="400">Original projects</text>
+<rect x="270" y="66" width="222" height="106" rx="10" fill="#111e2d" stroke="#26394a"/>
+<text x="288" y="113" font-size="34" fill="#f1f5f9" font-weight="700">14</text>
+<text x="288" y="146" font-size="14" fill="#b8c7d8" font-weight="400">Stars earned</text>
+<rect x="508" y="66" width="222" height="106" rx="10" fill="#111e2d" stroke="#26394a"/>
+<text x="526" y="113" font-size="34" fill="#f1f5f9" font-weight="700">3</text>
+<text x="526" y="146" font-size="14" fill="#b8c7d8" font-weight="400">Project forks</text>
+<rect x="746" y="66" width="222" height="106" rx="10" fill="#111e2d" stroke="#26394a"/>
+<text x="764" y="113" font-size="34" fill="#f1f5f9" font-weight="700">21</text>
+<text x="764" y="146" font-size="14" fill="#b8c7d8" font-weight="400">Published releases</text>
+<text x="32" y="212" font-size="19" fill="#f1f5f9" font-weight="600">Languages in public code</text>
+<text x="32" y="236" font-size="12" fill="#93a8bc" font-weight="400">Share of source bytes · original projects</text>
+<text x="532" y="212" font-size="19" fill="#f1f5f9" font-weight="600">Most-starred projects</text>
+<text x="532" y="236" font-size="12" fill="#93a8bc" font-weight="400">Public repository stars</text>
+<rect x="32.000" y="257" width="172.536" height="12" fill="#5eead4"/>
+<circle cx="38" cy="300" r="4" fill="#5eead4"/>
+<text x="52" y="305" font-size="14" fill="#e2e8f0" font-weight="400">Rust</text>
+<text x="396" y="305" font-size="14" fill="#e2e8f0" font-weight="400">39.6%</text>
+<rect x="204.536" y="257" width="146.712" height="12" fill="#7dd3fc"/>
+<circle cx="38" cy="329" r="4" fill="#7dd3fc"/>
+<text x="52" y="334" font-size="14" fill="#e2e8f0" font-weight="400">JavaScript</text>
+<text x="396" y="334" font-size="14" fill="#e2e8f0" font-weight="400">33.6%</text>
+<rect x="351.248" y="257" width="71.394" height="12" fill="#c4b5fd"/>
+<circle cx="38" cy="358" r="4" fill="#c4b5fd"/>
+<text x="52" y="363" font-size="14" fill="#e2e8f0" font-weight="400">HTML</text>
+<text x="396" y="363" font-size="14" fill="#e2e8f0" font-weight="400">16.4%</text>
+<rect x="422.642" y="257" width="25.990" height="12" fill="#fbbf24"/>
+<circle cx="38" cy="387" r="4" fill="#fbbf24"/>
+<text x="52" y="392" font-size="14" fill="#e2e8f0" font-weight="400">PowerShell</text>
+<text x="396" y="392" font-size="14" fill="#e2e8f0" font-weight="400">6.0%</text>
+<rect x="448.633" y="257" width="9.961" height="12" fill="#fda4af"/>
+<circle cx="38" cy="416" r="4" fill="#fda4af"/>
+<text x="52" y="421" font-size="14" fill="#e2e8f0" font-weight="400">CSS</text>
+<text x="396" y="421" font-size="14" fill="#e2e8f0" font-weight="400">2.3%</text>
+<rect x="458.594" y="257" width="9.406" height="12" fill="#94a3b8"/>
+<circle cx="38" cy="445" r="4" fill="#94a3b8"/>
+<text x="52" y="450" font-size="14" fill="#e2e8f0" font-weight="400">Other</text>
+<text x="396" y="450" font-size="14" fill="#e2e8f0" font-weight="400">2.2%</text>
+<text x="532" y="285" font-size="14" fill="#e2e8f0" font-weight="500">WhatsNow-for-WhatsApp</text>
+<text x="916" y="285" font-size="14" fill="#5eead4" font-weight="600">5 ★</text>
+<path d="M532 298h436" stroke="#1d3040"/>
+<text x="532" y="324" font-size="14" fill="#e2e8f0" font-weight="500">IG-Now</text>
+<text x="916" y="324" font-size="14" fill="#5eead4" font-weight="600">3 ★</text>
+<path d="M532 337h436" stroke="#1d3040"/>
+<text x="532" y="363" font-size="14" fill="#e2e8f0" font-weight="500">TubeNow</text>
+<text x="916" y="363" font-size="14" fill="#5eead4" font-weight="600">3 ★</text>
+<path d="M532 376h436" stroke="#1d3040"/>
+<text x="532" y="402" font-size="14" fill="#e2e8f0" font-weight="500">Codex-Monitor</text>
+<text x="916" y="402" font-size="14" fill="#5eead4" font-weight="600">1 ★</text>
+<path d="M532 415h436" stroke="#1d3040"/>
+<text x="532" y="441" font-size="14" fill="#e2e8f0" font-weight="500">TikTok-Now</text>
+<text x="916" y="441" font-size="14" fill="#5eead4" font-weight="600">1 ★</text>
+<path d="M532 454h436" stroke="#1d3040"/>
+<path d="M32 493h936" stroke="#26394a"/>
+<text x="32" y="523" font-size="12" fill="#93a8bc" font-weight="400">GitHub API · public non-fork projects · profile repository excluded</text>
+</g></svg>

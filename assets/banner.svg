@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Benedictus RH — Research in wood. Engineering in code.</title>
+  <desc id="desc">A navy and teal identity banner with abstract wood growth rings and imaging planes.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#122b35"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
+    <clipPath id="clip"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <g fill="none" stroke="#5eead4" opacity=".13" transform="translate(875 148)">
+      <ellipse rx="52" ry="68" stroke-width="2" transform="rotate(-20)"/>
+      <ellipse rx="78" ry="93" stroke-width="2" transform="rotate(-20)"/>
+      <ellipse rx="107" ry="119" stroke-width="2" transform="rotate(-20)"/>
+      <ellipse rx="138" ry="144" stroke-width="2" transform="rotate(-20)"/>
+      <ellipse rx="171" ry="170" stroke-width="2" transform="rotate(-20)"/>
+      <ellipse rx="207" ry="198" stroke-width="2" transform="rotate(-20)"/>
+    </g>
+    <g stroke="#7dd3fc" opacity=".12" fill="none">
+      <path d="M737 66h177v155H737zM761 42h177v155H761zM737 66l24-24m153 24 24-24M737 221l24-24m153 24 24-24"/>
+      <path d="M790 42v155M820 42v155M850 42v155M880 42v155M761 80h177M761 119h177M761 158h177"/>
+    </g>
+    <rect x="48" y="49" width="44" height="4" rx="2" fill="url(#accent)"/>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="48" y="84" font-size="13" font-weight="600" letter-spacing="2.7" fill="#5eead4">RESEARCHER / DEVELOPER</text>
+      <text x="48" y="139" font-size="45" font-weight="700" fill="#f1f5f9">Benedictus RH</text>
+      <text x="48" y="186" font-size="25" font-weight="500" fill="#e2e8f0">Research in wood. Engineering in code.</text>
+      <text x="48" y="231" font-size="16" fill="#b8c7d8">Scientific imaging</text>
+      <circle cx="190" cy="226" r="2" fill="#5eead4"/>
+      <text x="207" y="231" font-size="16" fill="#b8c7d8">Desktop software</text>
+      <circle cx="350" cy="226" r="2" fill="#5eead4"/>
+      <text x="367" y="231" font-size="16" fill="#b8c7d8">AI tools</text>
+      <text x="48" y="270" font-size="12" fill="#93a8bc" letter-spacing="1">NAGOYA, JAPAN</text>
+    </g>
+  </g>
+</svg>
