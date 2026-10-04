@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Benedictus RH — Research in wood. Engineering in code. Scientific imaging, Python, and desktop software." />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0d1117,50:16324f,100:1e3a5f&amp;height=220&amp;section=header&amp;text=Benedictus%20RH&amp;fontColor=f0f6fc&amp;fontSize=48&amp;fontAlignY=35&amp;desc=Scientific%20imaging%20%7C%20Desktop%20software%20%7C%20AI%20tools&amp;descSize=18&amp;descAlignY=56&amp;animation=none" width="100%" alt="Benedictus RH — Scientific imaging, desktop software, and AI tools. Banner generated with Capsule Render." />
 </p>
 
 <p align="center">
   <a href="#research--engineering">Research &amp; engineering</a> &nbsp; · &nbsp;
   <a href="#selected-projects">Selected projects</a> &nbsp; · &nbsp;
-  <a href="#public-github-stats">GitHub stats</a>
+  <a href="#github-progress">GitHub progress</a>
 </p>
 
 I'm **Benedictus RH**, a PhD student in Nagoya, Japan, exploring wood biodegradation through **hyperspectral imaging, X-ray CT, and Python**. I also build desktop applications and tools for working with AI.
@@ -24,20 +24,54 @@ My work connects two interests: understanding complex materials through imaging,
 
 | Project | What it does | Explore |
 | :--- | :--- | :--- |
-| **WhatsNow** | WhatsApp desktop client with multiple accounts, App Lock, themes, and focus tools. | [Code](https://github.com/benedictusrey/WhatsNow-for-WhatsApp) · [Releases](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases) |
-| **TubeNow** | A desktop home for YouTube with local Shields, persistent sessions, and tray controls. | [Code](https://github.com/benedictusrey/TubeNow) · [Releases](https://github.com/benedictusrey/TubeNow/releases) |
-| **IG Now** | An Instagram desktop client built with Tauri and Rust. | [Code](https://github.com/benedictusrey/IG-Now) · [Releases](https://github.com/benedictusrey/IG-Now/releases) |
-| **Codex Monitor** | A Windows dashboard for Codex usage, reset deadlines, timezones, and model runway. | [Code](https://github.com/benedictusrey/Codex-Monitor) · [Releases](https://github.com/benedictusrey/Codex-Monitor/releases) |
+| **WhatsNow** | WhatsApp desktop client with multiple accounts, App Lock, themes, and focus tools. | [Code](https://github.com/benedictusrey/WhatsNow-for-WhatsApp) · [![Release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases) |
+| **TubeNow** | A desktop home for YouTube with local Shields, persistent sessions, and tray controls. | [Code](https://github.com/benedictusrey/TubeNow) · [![Release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/TubeNow/releases) |
+| **IG Now** | An Instagram desktop client built with Tauri and Rust. | [Code](https://github.com/benedictusrey/IG-Now) · [![Release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/IG-Now/releases) |
+| **Codex Monitor** | A Windows dashboard for Codex usage, reset deadlines, timezones, and model runway. | [Code](https://github.com/benedictusrey/Codex-Monitor) · [![Release](https://img.shields.io/github/v/release/benedictusrey/Codex-Monitor?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Codex-Monitor/releases) |
 
 More desktop projects: [X Now](https://github.com/benedictusrey/X-Now) · [TikTok Now](https://github.com/benedictusrey/TikTok-Now)
 
-### Public GitHub stats
+### GitHub progress
 
-<a href="https://github.com/benedictusrey?tab=repositories">
-  <img src="assets/stats.svg" width="100%" alt="Public GitHub dashboard: original projects, stars, forks, published releases, leading languages, and most-starred projects." />
-</a>
+<p align="center">
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+    <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="GitHub Profile Summary Cards: profile overview and contribution history for Benedictus RH." />
+  </a>
+</p>
 
-<sub>Updated daily from the GitHub API. Counts cover public, non-fork projects and exclude this profile repository. Language shares measure GitHub-reported source bytes, not proficiency. Research described above may not be represented in public repositories. [Data & refresh workflow](.github/workflows/profile-stats.yml).</sub>
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" width="400" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to." />
+  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="400" alt="Commit activity by hour, displayed in UTC+9." />
+</p>
+
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="400" alt="Language distribution across public repositories." />
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="400" alt="Language distribution of public commit activity." />
+</p>
+
+<sub>Cards refresh daily using GitHub Profile Summary Cards. The time chart uses UTC+9. Language cards exclude this profile repository and the opencodex fork; they describe GitHub activity, not proficiency. Scientific research may not be represented in public repositories.</sub>
+
+### A year of contributions, in 3D
+
+<p align="center">
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">
+    <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="A 3D calendar of Benedictus RH's GitHub contributions over the past year, generated by GitHub Profile 3D Contrib." />
+  </a>
+</p>
+
+<sub>Built from the contribution data GitHub exposes to the workflow. Each tool uses its own counting window, so totals may differ slightly. Contribution counts follow GitHub's attribution rules and do not measure total work or research output.</sub>
+
+<details>
+  <summary>Open-source tools behind this profile</summary>
+
+- [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) — profile history, statistics, language charts, and activity by hour.
+- [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) — the 3D contribution calendar.
+- [Shields.io](https://github.com/badges/shields) — live release badges for the selected projects.
+- [Capsule Render](https://github.com/kyechan99/capsule-render) — the gradient banner.
+
+The cards and calendar are generated by [this daily workflow](.github/workflows/profile-stats.yml) and stored in this repository. Both generator actions are pinned to verified upstream commits. Authentication uses the built-in GitHub Actions token.
+
+</details>
 
 ---
 
