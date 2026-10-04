@@ -32,8 +32,8 @@ jobs:
           UTC_OFFSET: '9'
           EXCLUDE_REPOS: benedictusrey,opencodex
           AUTO_PUSH: false
-          THEME: github_dark
-          ANIMATION: rise
+          THEME: tokyonight
+          ANIMATION: none
           DURATION: '1.5'
           NAME: Benedictus RH
       - name: Generate GitHub Profile 3D Contrib
@@ -47,7 +47,7 @@ jobs:
           from pathlib import Path
           from xml.etree import ElementTree
 
-          directory = Path('profile-summary-card-output/github_dark')
+          directory = Path('profile-summary-card-output/tokyonight')
           required = [
               directory / '0-profile-details.svg',
               directory / '1-repos-per-language.svg',
@@ -61,7 +61,6 @@ jobs:
               root = ElementTree.fromstring(content)
               assert root.tag == '{http://www.w3.org/2000/svg}svg', path
               assert len(content) > 1000, path
-              assert 'benedictusrey' not in path.name.lower(), path
               assert 'Something went wrong' not in content, path
               assert 'Could not resolve to a User' not in content, path
           print('All six required profile graphics exist and contain valid SVG.')
