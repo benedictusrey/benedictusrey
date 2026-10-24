@@ -1,6 +1,9 @@
 <p align="center">
   <a href="#selected-projects">
-    <img src="assets/banners/profile/geometric-1200x400.png" width="100%" alt="Benedictus Reynaldo Hartanto — scientific imaging, desktop software, and AI tools. Explore selected projects." />
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/banners/profile/geometric-600x320.png" />
+      <img src="assets/banners/profile/geometric-1200x400.png" width="100%" alt="Benedictus Reynaldo Hartanto — scientific imaging, desktop software, and AI tools. Explore selected projects." />
+    </picture>
   </a>
 </p>
 
