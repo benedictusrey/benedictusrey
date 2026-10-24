@@ -1,19 +1,24 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0d1117,50:16324f,100:1e3a5f&amp;height=220&amp;section=header&amp;text=Benedictus%20RH&amp;fontColor=f0f6fc&amp;fontSize=48&amp;fontAlignY=35&amp;desc=Scientific%20imaging%20%7C%20Desktop%20software%20%7C%20AI%20tools&amp;descSize=18&amp;descAlignY=56&amp;animation=none" width="100%" alt="Benedictus RH — Scientific imaging, desktop software, and AI tools. Banner generated with Capsule Render." />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&amp;color=0:0d1117,50:16324f,100:1e3a5f&amp;height=220&amp;section=header&amp;text=Benedictus%20Reynaldo%20Hartanto&amp;fontColor=f0f6fc&amp;fontSize=38&amp;fontAlignY=35&amp;desc=Scientific%20imaging%20%7C%20Desktop%20software%20%7C%20AI%20tools&amp;descSize=18&amp;descAlignY=56&amp;animation=none" width="100%" alt="Benedictus Reynaldo Hartanto — Scientific imaging, desktop software, and AI tools. Banner generated with Capsule Render." />
 </p>
 
-I'm **Benedictus RH**, a PhD student in Nagoya, Japan, studying wood biodegradation with **hyperspectral imaging, X-ray CT, and Python**. I build **Rust/Tauri desktop applications** and practical **AI tools**.
+I'm **Benedictus Reynaldo Hartanto** ([@benedictusrey](https://github.com/benedictusrey)), a **PhD student in Nagoya, Japan**, studying wood biodegradation through **hyperspectral imaging, X-ray CT, and Python**.
+
+Alongside research, I build desktop software for everyday use: **Rust/Tauri applications**, **Windows utilities with PowerShell/WPF**, and tools for **AI coding workflows**.
 
 ### Selected projects
 
-| Project | What it does | Explore |
+| Project | What it does | Latest release |
 | :--- | :--- | :--- |
-| **WhatsNow** | WhatsApp desktop app with multiple accounts, App Lock, and focus tools. | [Code](https://github.com/benedictusrey/WhatsNow-for-WhatsApp) · [![Release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases) |
-| **TubeNow** | YouTube desktop app with local Shields, persistent sessions, and tray controls. | [Code](https://github.com/benedictusrey/TubeNow) · [![Release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/TubeNow/releases) |
-| **IG Now** | Instagram desktop app built with Rust and Tauri. | [Code](https://github.com/benedictusrey/IG-Now) · [![Release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/IG-Now/releases) |
-| **Codex Monitor** | Windows dashboard for Codex usage, reset deadlines, and model runway. | [Code](https://github.com/benedictusrey/Codex-Monitor) · [![Release](https://img.shields.io/github/v/release/benedictusrey/Codex-Monitor?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Codex-Monitor/releases) |
+| **[Tweak4Windows](https://github.com/benedictusrey/Tweak4Windows)** | Portable Windows 10/11 toolkit for reversible settings, hardware information, and maintenance previews. | [![Release](https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Tweak4Windows/releases/latest) |
+| **[WhatsNow](https://github.com/benedictusrey/WhatsNow-for-WhatsApp)** | WhatsApp Web workspace with multiple accounts, quiet Focus sessions, themes, and App Lock. | [![Release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases) |
+| **[TubeNow](https://github.com/benedictusrey/TubeNow)** | YouTube desktop app with local ad/tracker filtering, fullscreen controls, and background playback. | [![Release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/TubeNow/releases) |
+| **[IG Now](https://github.com/benedictusrey/IG-Now)** | Instagram desktop client with message notifications and media controls, built with Rust and Tauri. | [![Release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/IG-Now/releases) |
+| **[Codex Monitor](https://github.com/benedictusrey/Codex-Monitor)** | Windows dashboard for Codex usage, reset deadlines, token activity, and model runway. | [![Release](https://img.shields.io/github/v/release/benedictusrey/Codex-Monitor?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Codex-Monitor/releases) |
 
 More desktop projects: [X Now](https://github.com/benedictusrey/X-Now) · [TikTok Now](https://github.com/benedictusrey/TikTok-Now)
+
+Explore each repository or download a release above. **Feedback, feature ideas, and contributions are welcome** through each project's issues and contributing guide.
 
 ### GitHub progress
 
