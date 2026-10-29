@@ -5,10 +5,27 @@ from tempfile import TemporaryDirectory
 import unittest
 import re
 
-from scripts.update_pinned_projects import END, START, available_platforms, render_catalog, update_readme
+from scripts.update_pinned_projects import ARTWORK, END, START, available_platforms, render_catalog, update_readme
 
 
 class CatalogTests(unittest.TestCase):
+    def test_covers_follow_public_pins_and_unknown_pins_keep_text_fallback(self) -> None:
+        known = next(iter(ARTWORK))
+        result = render_catalog([
+            {"name": known.split("/")[1], "nameWithOwner": known,
+             "url": f"https://github.com/{known}", "isPrivate": False},
+            {"name": "new-app", "nameWithOwner": "owner/new-app",
+             "url": "https://github.com/owner/new-app", "isPrivate": False},
+            {"name": "private-app", "nameWithOwner": "owner/private-app", "isPrivate": True},
+        ])
+        self.assertEqual(result.count('project artwork"'), 1)
+        self.assertIn(ARTWORK[known][0], result)
+        self.assertIn('WhatsNow%20hero.png', result)
+        self.assertIn('width="1944" height="809"', result)
+        self.assertIn('new-app</a></h3>', result)
+        self.assertNotIn("private-app", result)
+        self.assertNotIn("<table", result)
+
     def test_jump_index_targets_every_public_pin_in_order(self) -> None:
         pins = [
             {"name": "app-one", "nameWithOwner": "owner/app-one", "url": "https://github.com/owner/app-one", "isPrivate": False},

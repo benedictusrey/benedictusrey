@@ -52,13 +52,26 @@ COPY = {
         "Reversible settings, hardware information, and maintenance previews.",
     ),
 }
-ICONS = {
-    "WhatsNow-for-WhatsApp": "whatsnow.png",
-    "TubeNow": "tubenow.png",
-    "TikTok-Now": "tiktok-now.png",
-    "IG-Now": "ig-now.png",
-    "X-Now": "x-now.png",
-    "Tweak4Windows": "tweak4windows.png",
+ARTWORK = {
+    "benedictusrey/WhatsNow-for-WhatsApp": (
+        "c28b005bfa74db22fbe773cff22c8d9570b13f07", "docs/assets/WhatsNow hero.png", 1944, 809,
+    ),
+    "benedictusrey/TubeNow": (
+        "9bd0cd322f8350caac03607ecede73f3ffcba186",
+        "assets/banner/tubenow_hero_banner_hd_1786308019150.jpg", 1672, 941,
+    ),
+    "benedictusrey/TikTok-Now": (
+        "2445a7a3a7d200a124a9319b581e9488f0ec2f1d", "docs/assets/TikTok-Now Hero.png", 1672, 941,
+    ),
+    "benedictusrey/IG-Now": (
+        "86ffe14cf24d9036bc524d33769038d092a7080b", "docs/assets/IG-Now hero.png", 1774, 887,
+    ),
+    "benedictusrey/X-Now": (
+        "6124e54b82168286e6a67c6d5f6118bb9f5ccfc7", "docs/assets/xnow-autoplay.png", 1672, 941,
+    ),
+    "benedictusrey/Tweak4Windows": (
+        "e3632e38d933b57cb26fc6e11daf46f77b682644", "assets/banner/Tweak4Windows_Hero.png", 1672, 940,
+    ),
 }
 
 
@@ -107,11 +120,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         name = COPY.get(repo["nameWithOwner"], (repo["name"],))[0]
         anchor = escape("app-" + repo["nameWithOwner"].lower().replace("/", "-"), quote=True)
         index.append(f'<a href="#user-content-{anchor}">{escape(name).replace(" ", "&nbsp;")}</a>')
-    rows = [
-        '<p>' + ' &nbsp; '.join(index) + '</p>',
-        '<table width="100%">',
-        '<tbody>',
-    ]
+    rows = ['<p>' + ' &nbsp; '.join(index) + '</p>']
     for repo in public:
         full_name = repo["nameWithOwner"]
         name, purpose, features = COPY.get(
@@ -131,11 +140,18 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         release_badge = (
             f'<a href="{target}"><img src="https://img.shields.io/github/v/release/{badge_repo}'
             f'?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" '
-            f'width="100" alt="{escape(name)} latest release"></a>'
+            f'height="24" alt="{escape(name)} latest release"></a>'
             if downloadable else ""
         )
-        icon = ICONS.get(repo["name"])
-        brand = f'<img src="assets/apps/{icon}" width="36" height="36" alt="">&nbsp; ' if icon else ""
+        artwork = ARTWORK.get(full_name)
+        cover = ""
+        if artwork:
+            revision, path, width, height = artwork
+            source = f"https://raw.githubusercontent.com/{full_name}/{revision}/{quote(path)}"
+            cover = (
+                f'<p><a href="{url}"><img src="{source}" width="{width}" '
+                f'height="{height}" alt="{title} project artwork"></a></p>'
+            )
         platforms = available_platforms(release) if downloadable else ""
         platform_line = f'<p>Available for {platforms}.</p>' if platforms else ""
         action_link = (
@@ -144,15 +160,15 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             if downloadable else f'<a href="{target}"><strong>{action}</strong></a>'
         )
         rows.extend([
-            '<tr>',
-            f'<td width="1000"><a name="{anchor}"></a><h3><a href="{url}">{brand}{title}</a></h3>',
-            f'<p>{escape(purpose)}<br>{escape(features)}</p>{platform_line}',
+            f'<a name="{anchor}"></a>',
+            cover,
+            f'<h3><a href="{url}">{title}</a></h3>',
+            f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>{platform_line}',
             f'<p>{action_link} &nbsp; {release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
-            f'width="80" alt="{escape(name)} GitHub stars"></a></p></td>',
-            '</tr>',
+            f'height="24" alt="{escape(name)} GitHub stars"></a></p>',
         ])
-    return "\n".join([*rows, '</tbody></table>'])
+    return "\n\n".join(part for part in rows if part)
 
 
 def update_readme(repositories: list[dict[str, Any]], path: Path) -> None:
