@@ -102,7 +102,13 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
     public = [repo for repo in repositories if not repo["isPrivate"]]
     if not public:
         return "No public projects are pinned yet. [Browse repositories](https://github.com/benedictusrey?tab=repositories)."
+    index = []
+    for repo in public:
+        name = COPY.get(repo["nameWithOwner"], (repo["name"],))[0]
+        anchor = escape("app-" + repo["nameWithOwner"].lower().replace("/", "-"), quote=True)
+        index.append(f'<a href="#{anchor}">{escape(name)}</a>')
     rows = [
+        '<p>' + ' &nbsp; '.join(index) + '</p>',
         '<table width="100%">',
         '<tbody>',
     ]
@@ -112,6 +118,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             full_name, (repo["name"], repo.get("description") or "View this project on GitHub.", "")
         )
         title = escape(name)
+        anchor = escape("app-" + full_name.lower().replace("/", "-"), quote=True)
         url = escape(repo["url"], quote=True)
         badge_repo = quote(full_name, safe="/")
         release = repo.get("latestRelease")
@@ -130,7 +137,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         icon = ICONS.get(repo["name"])
         brand = f'<img src="assets/apps/{icon}" width="36" height="36" alt="">&nbsp; ' if icon else ""
         platforms = available_platforms(release) if downloadable else ""
-        platform_line = f'<p><strong>{platforms}</strong></p>' if platforms else ""
+        platform_line = f'<p>Available for {platforms}.</p>' if platforms else ""
         action_link = (
             f'<a href="{target}"><img src="assets/download.png" width="136" height="44" '
             f'alt="Download {escape(name)}: choose an installer on the latest release page"></a>'
@@ -138,8 +145,8 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         )
         rows.extend([
             '<tr>',
-            f'<td width="1000"><h3><a href="{url}">{brand}{title}</a></h3>',
-            f'{platform_line}<p>{escape(purpose)}<br>{escape(features)}</p>',
+            f'<td width="1000"><a name="{anchor}"></a><h3><a href="{url}">{brand}{title}</a></h3>',
+            f'<p>{escape(purpose)}<br>{escape(features)}</p>{platform_line}',
             f'<p>{action_link} &nbsp; {release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
             f'width="80" alt="{escape(name)} GitHub stars"></a></p></td>',

@@ -3,11 +3,23 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
+import re
 
 from scripts.update_pinned_projects import END, START, available_platforms, render_catalog, update_readme
 
 
 class CatalogTests(unittest.TestCase):
+    def test_jump_index_targets_every_public_pin_in_order(self) -> None:
+        pins = [
+            {"name": "app-one", "nameWithOwner": "owner/app-one", "url": "https://github.com/owner/app-one", "isPrivate": False},
+            {"name": "app-two", "nameWithOwner": "owner/app-two", "url": "https://github.com/owner/app-two", "isPrivate": False},
+        ]
+        result = render_catalog(pins)
+        targets = re.findall(r'href="#([^"]+)"', result)
+        anchors = re.findall(r'<a name="([^"]+)"', result)
+        self.assertEqual(targets, ["app-owner-app-one", "app-owner-app-two"])
+        self.assertEqual(targets, anchors)
+
     def test_platform_labels_come_from_packages_not_document_names(self) -> None:
         release = {"releaseAssets": {"nodes": [
             {"name": "windows-installation.md"}, {"name": "macos-notes.pdf"},
