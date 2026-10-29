@@ -27,6 +27,7 @@ class CatalogTests(unittest.TestCase):
         self.assertNotIn("<script>", result)
         self.assertNotIn("Download", result)
         self.assertIn("View project", result)
+        self.assertNotIn('/stargazers"', result)
 
     def test_prereleases_and_releases_without_assets_are_not_downloads(self) -> None:
         for prerelease, assets in [(True, 2), (False, 0)]:

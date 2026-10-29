@@ -87,7 +87,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         name, purpose, features = COPY.get(
             full_name, (repo["name"], repo.get("description") or "View this project on GitHub.", "")
         )
-        title = escape(name).replace("Tweak4Windows", "Tweak4<wbr>Windows")
+        title = escape(name).replace("Tweak4Windows", "Tweak4&#8203;Windows")
         url = escape(repo["url"], quote=True)
         badge_repo = quote(full_name, safe="/")
         release = repo.get("latestRelease")
@@ -108,7 +108,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             f'<td><h3><a href="{url}">{title}</a></h3>',
             f'{escape(purpose)}<br><sub>{escape(features)}</sub></td>',
             f'<td align="center"><a href="{target}"><strong>{action}</strong></a>{release_badge}',
-            f'<br><br><a href="{url}/stargazers"><img src="https://img.shields.io/github/stars/{badge_repo}'
+            f'<br><br><a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
             f'width="90" alt="{escape(name)} GitHub stars"></a></td>',
             '</tr>',

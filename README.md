@@ -20,42 +20,42 @@ Download a release for your system. Open a project's repository for setup instru
 <td><h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
 Keep multiple WhatsApp accounts in one focused desktop workspace.<br><sub>Named accounts, Focus sessions, themes, and App Lock.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="WhatsNow latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="WhatsNow GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="WhatsNow GitHub stars"></a></td>
 </tr>
 <tr>
 <td><h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
 Watch YouTube in a dedicated desktop app.<br><sub>Local ad and tracker filtering, fullscreen controls, and background playback.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="TubeNow latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="TubeNow GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="TubeNow GitHub stars"></a></td>
 </tr>
 <tr>
 <td><h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
 Browse TikTok with desktop playback controls.<br><sub>Pause on minimize, photo carousels, and a system tray menu.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="TikTok Now latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="TikTok Now GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="TikTok Now GitHub stars"></a></td>
 </tr>
 <tr>
 <td><h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
 Keep Instagram messages and media in their own desktop window.<br><sub>Message notifications, video seeking, and volume controls.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="IG Now latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="IG Now GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="IG Now GitHub stars"></a></td>
 </tr>
 <tr>
 <td><h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
 Use X in a dedicated desktop window.<br><sub>Tray controls, media saving, and themes that follow your system.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/X-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="X Now latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="X Now GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="X Now GitHub stars"></a></td>
 </tr>
 <tr>
-<td><h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4<wbr>Windows</a></h3>
+<td><h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4&#8203;Windows</a></h3>
 Review and adjust Windows from one portable toolkit.<br><sub>Reversible settings, hardware information, and maintenance previews.</sub></td>
 <td align="center"><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" alt="Tweak4Windows latest release"></a>
-<br><br><a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="Tweak4Windows GitHub stars"></a></td>
+<br><br><a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" alt="Tweak4Windows GitHub stars"></a></td>
 </tr>
 </tbody></table>
 <!-- pinned-projects:end -->
 
-Star counts link to each project's stargazers and update through GitHub data. If an app helps you, a star helps others find it.
+Star counts update through GitHub data. Open a repository to star the project or send feedback. If an app helps you, a star helps others find it.
 
 <details>
   <summary>Contribution activity and language stats</summary>
