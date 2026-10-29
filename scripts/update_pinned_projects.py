@@ -79,7 +79,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         return "No public projects are pinned yet. [Browse repositories](https://github.com/benedictusrey?tab=repositories)."
     rows = [
         '<table width="100%">',
-        '<thead><tr><th align="left">Application</th><th align="center">Release &amp; stars</th></tr></thead>',
+        '<thead><tr><th align="left" width="700">Application</th><th align="center">Release &amp; stars</th></tr></thead>',
         '<tbody>',
     ]
     for repo in public:
@@ -100,7 +100,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         release_badge = (
             f'<br><a href="{target}"><img src="https://img.shields.io/github/v/release/{badge_repo}'
             f'?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" '
-            f'width="100" height="20" alt="{escape(name)} latest release"></a>'
+            f'width="100" alt="{escape(name)} latest release"></a>'
             if downloadable else ""
         )
         rows.extend([
@@ -110,7 +110,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             f'<td align="center"><a href="{target}"><strong>{action}</strong></a>{release_badge}',
             f'<br><br><a href="{url}/stargazers"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
-            f'width="90" height="20" alt="{escape(name)} GitHub stars"></a></td>',
+            f'width="90" alt="{escape(name)} GitHub stars"></a></td>',
             '</tr>',
         ])
     return "\n".join([*rows, '</tbody></table>'])
