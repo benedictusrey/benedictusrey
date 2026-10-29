@@ -140,8 +140,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             '<tr>',
             f'<td width="1000"><h3><a href="{url}">{brand}{title}</a></h3>',
             f'{platform_line}<p>{escape(purpose)}<br>{escape(features)}</p>',
-            f'<p>{action_link}</p>',
-            f'<p>{release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
+            f'<p>{action_link} &nbsp; {release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
             f'width="80" alt="{escape(name)} GitHub stars"></a></p></td>',
             '</tr>',
