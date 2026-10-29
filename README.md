@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="#selected-projects">
-    <img src="assets/banners/profile/github-banner.png" width="100%" alt="Benedictus RH (@benedictusrey) — researcher and builder. Scientific imaging, software engineering, and AI tools, illustrated through wood structure, imaging layers, and desktop software." />
+  <a href="#pinned-apps">
+    <img src="assets/banners/profile/github-banner.png" width="2172" height="724" fetchpriority="high" alt="Benedictus RH (@benedictusrey), researcher and builder. Scientific imaging, software engineering, and AI tools, illustrated through wood structure, imaging layers, and desktop software." />
   </a>
 </p>
 
@@ -8,19 +8,57 @@ I'm **Benedictus Reynaldo Hartanto** ([@benedictusrey](https://github.com/benedi
 
 Alongside research, I build desktop software for everyday use: **Rust/Tauri applications**, **Windows utilities with PowerShell/WPF**, and tools for **AI coding workflows**.
 
-### Selected projects
+### Pinned apps
 
-| Project | What it does | Latest release |
-| :--- | :--- | :--- |
-| **[Tweak4Windows](https://github.com/benedictusrey/Tweak4Windows)** | Portable Windows 10/11 toolkit for reversible settings, hardware information, and maintenance previews. | [![Release](https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Tweak4Windows/releases/latest) |
-| **[WhatsNow](https://github.com/benedictusrey/WhatsNow-for-WhatsApp)** | WhatsApp Web workspace with multiple accounts, quiet Focus sessions, themes, and App Lock. | [![Release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases) |
-| **[TubeNow](https://github.com/benedictusrey/TubeNow)** | YouTube desktop app with local ad/tracker filtering, fullscreen controls, and background playback. | [![Release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/TubeNow/releases) |
-| **[IG Now](https://github.com/benedictusrey/IG-Now)** | Instagram desktop client with message notifications and media controls, built with Rust and Tauri. | [![Release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/IG-Now/releases) |
-| **[Codex Monitor](https://github.com/benedictusrey/Codex-Monitor)** | Windows dashboard for Codex usage, reset deadlines, token activity, and model runway. | [![Release](https://img.shields.io/github/v/release/benedictusrey/Codex-Monitor?style=flat-square&color=38bdae&label=release)](https://github.com/benedictusrey/Codex-Monitor/releases) |
+Download a release for your system. Open a project's repository for setup instructions and source availability.
 
-More desktop projects: [X Now](https://github.com/benedictusrey/X-Now) · [TikTok Now](https://github.com/benedictusrey/TikTok-Now)
+<!-- pinned-projects:start -->
+<table width="100%">
+<thead><tr><th align="left">Application</th><th align="center">Release &amp; stars</th></tr></thead>
+<tbody>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
+Keep multiple WhatsApp accounts in one focused desktop workspace.<br><sub>Named accounts, Focus sessions, themes, and App Lock.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="WhatsNow latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="WhatsNow GitHub stars"></a></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
+Watch YouTube in a dedicated desktop app.<br><sub>Local ad and tracker filtering, fullscreen controls, and background playback.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="TubeNow latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="TubeNow GitHub stars"></a></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
+Browse TikTok with desktop playback controls.<br><sub>Pause on minimize, photo carousels, and a system tray menu.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="TikTok Now latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="TikTok Now GitHub stars"></a></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
+Keep Instagram messages and media in their own desktop window.<br><sub>Message notifications, video seeking, and volume controls.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="IG Now latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="IG Now GitHub stars"></a></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
+Use X in a dedicated desktop window.<br><sub>Tray controls, media saving, and themes that follow your system.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/X-Now/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="X Now latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="X Now GitHub stars"></a></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4<wbr>Windows</a></h3>
+Review and adjust Windows from one portable toolkit.<br><sub>Reversible settings, hardware information, and maintenance previews.</sub></td>
+<td align="center"><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><strong>Download</strong></a><br><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" width="100" height="20" alt="Tweak4Windows latest release"></a>
+<br><br><a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" width="90" height="20" alt="Tweak4Windows GitHub stars"></a></td>
+</tr>
+</tbody></table>
+<!-- pinned-projects:end -->
 
-Explore each repository or download a release above. **Feedback, feature ideas, and contributions are welcome** through each project's issues and contributing guide.
+Star counts link to each project's stargazers and update through GitHub data. If an app helps you, a star helps others find it.
+
+<details>
+  <summary>Contribution activity and language stats</summary>
 
 ### GitHub progress
 
@@ -45,12 +83,14 @@ Explore each repository or download a release above. **Feedback, feature ideas, 
 
 <sub>Stats and calendar refresh daily. They reflect GitHub activity; each tool uses its own counting window.</sub>
 
+</details>
+
 <details>
   <summary>Tools & automatic updates</summary>
 
 [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) · [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) · [Shields.io](https://github.com/badges/shields)
 
-Cards and calendar are stored in this repository and regenerated by the [daily workflow](.github/workflows/profile-stats.yml). Release badges update through Shields.io. Language cards exclude this profile and the opencodex fork; public code may not include my research.
+The [daily workflow](.github/workflows/profile-stats.yml) keeps this table in sync with public pinned repositories, in pin order. Release and star badges update through Shields.io and may be cached briefly. Cards and calendar are stored in this repository. Language cards exclude this profile and the opencodex fork; public code may not include my research.
 
 The supplied banner is stored in this repository and needs no scheduled refresh.
 
