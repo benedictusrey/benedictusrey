@@ -15,17 +15,19 @@ I build desktop apps for messaging and media, plus a portable Windows toolkit.
 Messaging, video, social media, and Windows tools. Explore an app or get its latest release.
 
 <!-- pinned-projects:start -->
-<p><a href="#user-content-app-benedictusrey-whatsnow-for-whatsapp">WhatsNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
+<p><a href="#pinned-apps">WhatsNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
 
-<p><a name="app-benedictusrey-whatsnow-for-whatsapp"></a><br><br></p>
+<p><a name="app-benedictusrey-whatsnow-for-whatsapp"></a></p>
 
 <p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://raw.githubusercontent.com/benedictusrey/WhatsNow-for-WhatsApp/c28b005bfa74db22fbe773cff22c8d9570b13f07/docs/assets/WhatsNow%20hero.png" width="1944" height="809" alt="WhatsNow project artwork"></a></p>
 
 <h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
 
-<p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong><br>Named accounts, Focus sessions, themes, and App Lock.</p><p>Available for Windows, macOS, Linux.</p>
+<p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong><br>Named accounts, Focus sessions, themes, and App Lock.</p>
 
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Release&nbsp;<strong>v2.6.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="WhatsNow GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Release&nbsp;<strong>v2.6.2</strong></a><br>Available for Windows, macOS, Linux.</p>
+
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="WhatsNow GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tubenow"></a><br><br></p>
 
@@ -33,9 +35,11 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
 
-<p><strong>Watch YouTube in a dedicated desktop app.</strong><br>Local ad and tracker filtering, fullscreen controls, and background playback.</p><p>Available for Windows, macOS, Linux.</p>
+<p><strong>Watch YouTube in a dedicated desktop app.</strong><br>Local ad and tracker filtering, fullscreen controls, and background playback.</p>
 
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Release&nbsp;<strong>v1.1.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TubeNow GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest">Release&nbsp;<strong>v1.1.2</strong></a><br>Available for Windows, macOS, Linux.</p>
+
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="TubeNow GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tiktok-now"></a><br><br></p>
 
@@ -43,9 +47,11 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
 
-<p><strong>Browse TikTok with desktop playback controls.</strong><br>Pause on minimize, photo carousels, and a system tray menu.</p><p>Available for Windows, macOS, Linux.</p>
+<p><strong>Browse TikTok with desktop playback controls.</strong><br>Pause on minimize, photo carousels, and a system tray menu.</p>
 
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TikTok Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a><br>Available for Windows, macOS, Linux.</p>
+
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="TikTok Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-ig-now"></a><br><br></p>
 
@@ -53,9 +59,11 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
 
-<p><strong>Keep Instagram messages and media in their own desktop window.</strong><br>Message notifications, video seeking, and volume controls.</p><p>Available for Windows, macOS, Linux.</p>
+<p><strong>Keep Instagram messages and media in their own desktop window.</strong><br>Message notifications, video seeking, and volume controls.</p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Release&nbsp;<strong>v2.2.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="IG Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest">Release&nbsp;<strong>v2.2.0</strong></a><br>Available for Windows, macOS, Linux.</p>
+
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="IG Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-x-now"></a><br><br></p>
 
@@ -63,9 +71,11 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
 
-<p><strong>Use X in a dedicated desktop window.</strong><br>Tray controls, media saving, and themes that follow your system.</p><p>Available for Windows, macOS, Linux.</p>
+<p><strong>Use X in a dedicated desktop window.</strong><br>Tray controls, media saving, and themes that follow your system.</p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="X Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/X-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a><br>Available for Windows, macOS, Linux.</p>
+
+<p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="X Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tweak4windows"></a><br><br></p>
 
@@ -73,10 +83,14 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4Windows</a></h3>
 
-<p><strong>Review and adjust Windows from one portable toolkit.</strong><br>Reversible settings, hardware information, and maintenance previews.</p><p>Available for Windows.</p>
+<p><strong>Review and adjust Windows from one portable toolkit.</strong><br>Reversible settings, hardware information, and maintenance previews.</p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download Tweak4Windows: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Release&nbsp;<strong>v1.0.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="Tweak4Windows GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Release&nbsp;<strong>v1.0.0</strong></a><br>Available for Windows.</p>
+
+<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download Tweak4Windows: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="Tweak4Windows GitHub stars"></a></p>
 <!-- pinned-projects:end -->
+
+## Activity and updates
 
 Found something useful? Star its repository or share feedback through its issues.
 

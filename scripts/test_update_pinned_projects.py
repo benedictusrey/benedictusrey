@@ -17,6 +17,9 @@ class CatalogTests(unittest.TestCase):
                               "isPrerelease": False, "releaseAssets": {"totalCount": 1}},
         }])
         self.assertIn('Release&nbsp;<strong>v1.2.3 &amp; stable</strong>', result)
+        action_paragraph = next(part for part in result.split("\n\n") if 'src="assets/download.png"' in part)
+        self.assertNotIn("Release", action_paragraph)
+        self.assertEqual(action_paragraph.count('align="middle"'), 2)
         self.assertNotIn('img.shields.io/github/v/release', result)
         self.assertIn('img.shields.io/github/stars/owner/app', result)
 
@@ -46,7 +49,9 @@ class CatalogTests(unittest.TestCase):
         targets = re.findall(r'href="#([^"]+)"', result)
         anchors = re.findall(r'<a name="([^"]+)"', result)
         self.assertEqual(anchors, ["app-owner-app-one", "app-owner-app-two"])
-        self.assertEqual(targets, [f"user-content-{anchor}" for anchor in anchors])
+        self.assertEqual(targets, ["pinned-apps", "user-content-app-owner-app-two"])
+        self.assertIn('<a name="app-owner-app-one"></a></p>', result)
+        self.assertIn('<a name="app-owner-app-two"></a><br><br></p>', result)
 
     def test_platform_labels_come_from_packages_not_document_names(self) -> None:
         release = {"releaseAssets": {"nodes": [

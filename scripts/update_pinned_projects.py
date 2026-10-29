@@ -116,12 +116,13 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
     if not public:
         return "No public projects are pinned yet. [Browse repositories](https://github.com/benedictusrey?tab=repositories)."
     index = []
-    for repo in public:
+    for position, repo in enumerate(public):
         name = COPY.get(repo["nameWithOwner"], (repo["name"],))[0]
         anchor = escape("app-" + repo["nameWithOwner"].lower().replace("/", "-"), quote=True)
-        index.append(f'<a href="#user-content-{anchor}">{escape(name).replace(" ", "&nbsp;")}</a>')
+        destination = "#pinned-apps" if position == 0 else f"#user-content-{anchor}"
+        index.append(f'<a href="{destination}">{escape(name).replace(" ", "&nbsp;")}</a>')
     rows = ['<p>' + ' &nbsp; '.join(index) + '</p>']
-    for repo in public:
+    for position, repo in enumerate(public):
         full_name = repo["nameWithOwner"]
         name, purpose, features = COPY.get(
             full_name, (repo["name"], repo.get("description") or "View this project on GitHub.", "")
@@ -151,21 +152,25 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
                 f'height="{height}" alt="{title} project artwork"></a></p>'
             )
         platforms = available_platforms(release) if downloadable else ""
-        platform_line = f'<p>Available for {platforms}.</p>' if platforms else ""
+        platform_line = f"Available for {platforms}." if platforms else ""
+        metadata = "<br>".join(part for part in (release_link, platform_line) if part)
         action_link = (
-            f'<a href="{target}"><img src="assets/download.png" width="136" height="44" '
+            f'<a href="{target}"><img src="assets/download.png" width="136" height="44" align="middle" '
             f'alt="Download {escape(name)}: choose an installer on the latest release page"></a>'
             if downloadable else f'<a href="{target}"><strong>{action}</strong></a>'
         )
         # Native line breaks clear GitHub's sticky profile tabs after a jump.
+        # The first link uses the native section heading and needs no spacer.
+        spacer = "<br><br>" if position else ""
         rows.extend([
-            f'<p><a name="{anchor}"></a><br><br></p>',
+            f'<p><a name="{anchor}"></a>{spacer}</p>',
             cover,
             f'<h3><a href="{url}">{title}</a></h3>',
-            f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>{platform_line}',
-            f'<p>{action_link} &nbsp; {release_link} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
+            f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>',
+            f'<p>{metadata}</p>' if metadata else "",
+            f'<p>{action_link} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
-            f'height="24" alt="{escape(name)} GitHub stars"></a></p>',
+            f'height="24" align="middle" alt="{escape(name)} GitHub stars"></a></p>',
         ])
     return "\n\n".join(part for part in rows if part)
 
