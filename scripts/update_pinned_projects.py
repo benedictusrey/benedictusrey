@@ -137,10 +137,8 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         )
         action = "Download" if downloadable else "View project"
         target = f"{url}/releases/latest" if downloadable else url
-        release_badge = (
-            f'<a href="{target}"><img src="https://img.shields.io/github/v/release/{badge_repo}'
-            f'?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" '
-            f'height="24" alt="{escape(name)} latest release"></a>'
+        release_link = (
+            f'<a href="{target}">Release <strong>{escape(release["tagName"])}</strong></a>'
             if downloadable else ""
         )
         artwork = ARTWORK.get(full_name)
@@ -165,7 +163,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             cover,
             f'<h3><a href="{url}">{title}</a></h3>',
             f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>{platform_line}',
-            f'<p>{action_link} &nbsp; {release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
+            f'<p>{action_link} &nbsp; {release_link} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
             f'height="24" alt="{escape(name)} GitHub stars"></a></p>',
         ])

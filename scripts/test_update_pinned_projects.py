@@ -9,6 +9,17 @@ from scripts.update_pinned_projects import ARTWORK, END, START, available_platfo
 
 
 class CatalogTests(unittest.TestCase):
+    def test_release_version_is_escaped_text_without_external_release_lookup(self) -> None:
+        result = render_catalog([{
+            "name": "App", "nameWithOwner": "owner/app",
+            "url": "https://github.com/owner/app", "isPrivate": False,
+            "latestRelease": {"tagName": "v1.2.3 & stable", "isDraft": False,
+                              "isPrerelease": False, "releaseAssets": {"totalCount": 1}},
+        }])
+        self.assertIn('Release <strong>v1.2.3 &amp; stable</strong>', result)
+        self.assertNotIn('img.shields.io/github/v/release', result)
+        self.assertIn('img.shields.io/github/stars/owner/app', result)
+
     def test_covers_follow_public_pins_and_unknown_pins_keep_text_fallback(self) -> None:
         known = next(iter(ARTWORK))
         result = render_catalog([
