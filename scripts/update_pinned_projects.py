@@ -138,7 +138,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         action = "Download" if downloadable else "View project"
         target = f"{url}/releases/latest" if downloadable else url
         release_link = (
-            f'<a href="{target}">Release <strong>{escape(release["tagName"])}</strong></a>'
+            f'<a href="{target}">Release&nbsp;<strong>{escape(release["tagName"])}</strong></a>'
             if downloadable else ""
         )
         artwork = ARTWORK.get(full_name)

@@ -16,7 +16,7 @@ class CatalogTests(unittest.TestCase):
             "latestRelease": {"tagName": "v1.2.3 & stable", "isDraft": False,
                               "isPrerelease": False, "releaseAssets": {"totalCount": 1}},
         }])
-        self.assertIn('Release <strong>v1.2.3 &amp; stable</strong>', result)
+        self.assertIn('Release&nbsp;<strong>v1.2.3 &amp; stable</strong>', result)
         self.assertNotIn('img.shields.io/github/v/release', result)
         self.assertIn('img.shields.io/github/stars/owner/app', result)
 

@@ -25,7 +25,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong><br>Named accounts, Focus sessions, themes, and App Lock.</p><p>Available for Windows, macOS, Linux.</p>
 
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Release <strong>v2.6.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="WhatsNow GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Release&nbsp;<strong>v2.6.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="WhatsNow GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tubenow"></a><br><br></p>
 
@@ -35,7 +35,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Watch YouTube in a dedicated desktop app.</strong><br>Local ad and tracker filtering, fullscreen controls, and background playback.</p><p>Available for Windows, macOS, Linux.</p>
 
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Release <strong>v1.1.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TubeNow GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Release&nbsp;<strong>v1.1.2</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TubeNow GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tiktok-now"></a><br><br></p>
 
@@ -45,7 +45,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Browse TikTok with desktop playback controls.</strong><br>Pause on minimize, photo carousels, and a system tray menu.</p><p>Available for Windows, macOS, Linux.</p>
 
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Release <strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TikTok Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TikTok Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-ig-now"></a><br><br></p>
 
@@ -55,7 +55,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Keep Instagram messages and media in their own desktop window.</strong><br>Message notifications, video seeking, and volume controls.</p><p>Available for Windows, macOS, Linux.</p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Release <strong>v2.2.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="IG Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Release&nbsp;<strong>v2.2.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="IG Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-x-now"></a><br><br></p>
 
@@ -65,7 +65,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Use X in a dedicated desktop window.</strong><br>Tray controls, media saving, and themes that follow your system.</p><p>Available for Windows, macOS, Linux.</p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Release <strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="X Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="X Now GitHub stars"></a></p>
 
 <p><a name="app-benedictusrey-tweak4windows"></a><br><br></p>
 
@@ -75,7 +75,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><strong>Review and adjust Windows from one portable toolkit.</strong><br>Reversible settings, hardware information, and maintenance previews.</p><p>Available for Windows.</p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download Tweak4Windows: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Release <strong>v1.0.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="Tweak4Windows GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download Tweak4Windows: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Release&nbsp;<strong>v1.0.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="Tweak4Windows GitHub stars"></a></p>
 <!-- pinned-projects:end -->
 
 Found something useful? Star its repository or share feedback through its issues.
