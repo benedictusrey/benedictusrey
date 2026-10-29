@@ -4,10 +4,23 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from scripts.update_pinned_projects import END, START, render_catalog, update_readme
+from scripts.update_pinned_projects import END, START, available_platforms, render_catalog, update_readme
 
 
 class CatalogTests(unittest.TestCase):
+    def test_platform_labels_come_from_packages_not_document_names(self) -> None:
+        release = {"releaseAssets": {"nodes": [
+            {"name": "windows-installation.md"}, {"name": "macos-notes.pdf"},
+            {"name": "linux-guide.md"},
+        ]}}
+        self.assertEqual(available_platforms(release), "")
+        release["releaseAssets"]["nodes"] = [
+            {"name": "App_2.1.0_windows_x64-setup.exe"},
+            {"name": "App_v2.1.0_macos-universal"},
+            {"name": "App_2.1.0_amd64.AppImage"},
+        ]
+        self.assertEqual(available_platforms(release), "Windows, macOS, Linux")
+
     def test_empty_pins_have_a_real_destination(self) -> None:
         self.assertIn("No public projects", render_catalog([]))
         self.assertIn("?tab=repositories", render_catalog([]))

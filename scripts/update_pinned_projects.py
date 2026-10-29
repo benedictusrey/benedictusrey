@@ -20,7 +20,7 @@ QUERY = """query {
         name nameWithOwner description url isPrivate
         latestRelease {
           tagName url isPrerelease isDraft
-          releaseAssets(first: 1) { totalCount }
+          releaseAssets(first: 100) { totalCount nodes { name } }
         }
       } }
     }
@@ -52,6 +52,31 @@ COPY = {
         "Reversible settings, hardware information, and maintenance previews.",
     ),
 }
+ICONS = {
+    "WhatsNow-for-WhatsApp": "whatsnow.png",
+    "TubeNow": "tubenow.png",
+    "TikTok-Now": "tiktok-now.png",
+    "IG-Now": "ig-now.png",
+    "X-Now": "x-now.png",
+    "Tweak4Windows": "tweak4windows.png",
+}
+
+
+def available_platforms(release: dict[str, Any]) -> str:
+    """Label only platforms with recognizable packages in the published release."""
+    names = [asset["name"].lower() for asset in release["releaseAssets"].get("nodes", [])]
+    names = [name for name in names if name.endswith((
+        ".exe", ".msi", ".zip", ".dmg", ".app.tar.gz", ".appimage", ".deb", ".rpm",
+        ".tar.gz", ".tgz", "-x86_64", "-aarch64", "-universal",
+    ))]
+    platforms = []
+    if any(name.endswith((".exe", ".msi")) or ("windows" in name and name.endswith(".zip")) for name in names):
+        platforms.append("Windows")
+    if any(name.endswith((".dmg", ".app.tar.gz")) or "macos" in name for name in names):
+        platforms.append("macOS")
+    if any(name.endswith((".appimage", ".deb", ".rpm")) or "linux" in name for name in names):
+        platforms.append("Linux")
+    return ", ".join(platforms)
 
 
 def fetch_pins() -> list[dict[str, Any]]:
@@ -79,7 +104,6 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         return "No public projects are pinned yet. [Browse repositories](https://github.com/benedictusrey?tab=repositories)."
     rows = [
         '<table width="100%">',
-        '<thead><tr><th align="left" width="700">Application</th><th align="center">Release &amp; stars</th></tr></thead>',
         '<tbody>',
     ]
     for repo in public:
@@ -87,7 +111,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         name, purpose, features = COPY.get(
             full_name, (repo["name"], repo.get("description") or "View this project on GitHub.", "")
         )
-        title = escape(name).replace("Tweak4Windows", "Tweak4&#8203;Windows")
+        title = escape(name)
         url = escape(repo["url"], quote=True)
         badge_repo = quote(full_name, safe="/")
         release = repo.get("latestRelease")
@@ -98,19 +122,28 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
         action = "Download" if downloadable else "View project"
         target = f"{url}/releases/latest" if downloadable else url
         release_badge = (
-            f'<br><a href="{target}"><img src="https://img.shields.io/github/v/release/{badge_repo}'
+            f'<a href="{target}"><img src="https://img.shields.io/github/v/release/{badge_repo}'
             f'?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" '
             f'width="100" alt="{escape(name)} latest release"></a>'
             if downloadable else ""
         )
+        icon = ICONS.get(repo["name"])
+        brand = f'<img src="assets/apps/{icon}" width="36" height="36" alt="">&nbsp; ' if icon else ""
+        platforms = available_platforms(release) if downloadable else ""
+        platform_line = f'<p><strong>{platforms}</strong></p>' if platforms else ""
+        action_link = (
+            f'<a href="{target}"><img src="assets/download.png" width="136" height="44" '
+            f'alt="Download {escape(name)}: choose an installer on the latest release page"></a>'
+            if downloadable else f'<a href="{target}"><strong>{action}</strong></a>'
+        )
         rows.extend([
             '<tr>',
-            f'<td><h3><a href="{url}">{title}</a></h3>',
-            f'{escape(purpose)}<br><sub>{escape(features)}</sub></td>',
-            f'<td align="center"><a href="{target}"><strong>{action}</strong></a>{release_badge}',
-            f'<br><br><a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
+            f'<td width="1000"><h3><a href="{url}">{brand}{title}</a></h3>',
+            f'{platform_line}<p>{escape(purpose)}<br>{escape(features)}</p>',
+            f'<p>{action_link}</p>',
+            f'<p>{release_badge} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
             f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
-            f'width="90" alt="{escape(name)} GitHub stars"></a></td>',
+            f'width="80" alt="{escape(name)} GitHub stars"></a></p></td>',
             '</tr>',
         ])
     return "\n".join([*rows, '</tbody></table>'])
