@@ -17,7 +17,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 <!-- pinned-projects:start -->
 <p><a href="#user-content-app-benedictusrey-whatsnow-for-whatsapp">WhatsNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
 
-<a name="app-benedictusrey-whatsnow-for-whatsapp"></a>
+<p><a name="app-benedictusrey-whatsnow-for-whatsapp"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://raw.githubusercontent.com/benedictusrey/WhatsNow-for-WhatsApp/c28b005bfa74db22fbe773cff22c8d9570b13f07/docs/assets/WhatsNow%20hero.png" width="1944" height="809" alt="WhatsNow project artwork"></a></p>
 
@@ -27,7 +27,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" height="24" alt="WhatsNow latest release"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="WhatsNow GitHub stars"></a></p>
 
-<a name="app-benedictusrey-tubenow"></a>
+<p><a name="app-benedictusrey-tubenow"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/TubeNow"><img src="https://raw.githubusercontent.com/benedictusrey/TubeNow/9bd0cd322f8350caac03607ecede73f3ffcba186/assets/banner/tubenow_hero_banner_hd_1786308019150.jpg" width="1672" height="941" alt="TubeNow project artwork"></a></p>
 
@@ -37,7 +37,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" height="24" alt="TubeNow latest release"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TubeNow GitHub stars"></a></p>
 
-<a name="app-benedictusrey-tiktok-now"></a>
+<p><a name="app-benedictusrey-tiktok-now"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://raw.githubusercontent.com/benedictusrey/TikTok-Now/2445a7a3a7d200a124a9319b581e9488f0ec2f1d/docs/assets/TikTok-Now%20Hero.png" width="1672" height="941" alt="TikTok Now project artwork"></a></p>
 
@@ -47,7 +47,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" height="24" alt="TikTok Now latest release"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="TikTok Now GitHub stars"></a></p>
 
-<a name="app-benedictusrey-ig-now"></a>
+<p><a name="app-benedictusrey-ig-now"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/IG-Now"><img src="https://raw.githubusercontent.com/benedictusrey/IG-Now/86ffe14cf24d9036bc524d33769038d092a7080b/docs/assets/IG-Now%20hero.png" width="1774" height="887" alt="IG Now project artwork"></a></p>
 
@@ -57,7 +57,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" height="24" alt="IG Now latest release"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="IG Now GitHub stars"></a></p>
 
-<a name="app-benedictusrey-x-now"></a>
+<p><a name="app-benedictusrey-x-now"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/X-Now"><img src="https://raw.githubusercontent.com/benedictusrey/X-Now/6124e54b82168286e6a67c6d5f6118bb9f5ccfc7/docs/assets/xnow-autoplay.png" width="1672" height="941" alt="X Now project artwork"></a></p>
 
@@ -67,7 +67,7 @@ Messaging, video, social media, and Windows tools. Explore an app or get its lat
 
 <p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&amp;label=release&amp;color=176b91&amp;labelColor=30363d" height="24" alt="X Now latest release"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" alt="X Now GitHub stars"></a></p>
 
-<a name="app-benedictusrey-tweak4windows"></a>
+<p><a name="app-benedictusrey-tweak4windows"></a><br><br></p>
 
 <p><a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://raw.githubusercontent.com/benedictusrey/Tweak4Windows/e3632e38d933b57cb26fc6e11daf46f77b682644/assets/banner/Tweak4Windows_Hero.png" width="1672" height="940" alt="Tweak4Windows project artwork"></a></p>
 

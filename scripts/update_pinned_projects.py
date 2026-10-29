@@ -159,8 +159,9 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
             f'alt="Download {escape(name)}: choose an installer on the latest release page"></a>'
             if downloadable else f'<a href="{target}"><strong>{action}</strong></a>'
         )
+        # Native line breaks clear GitHub's sticky profile tabs after a jump.
         rows.extend([
-            f'<a name="{anchor}"></a>',
+            f'<p><a name="{anchor}"></a><br><br></p>',
             cover,
             f'<h3><a href="{url}">{title}</a></h3>',
             f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>{platform_line}',
