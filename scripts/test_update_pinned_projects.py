@@ -17,8 +17,8 @@ class CatalogTests(unittest.TestCase):
         result = render_catalog(pins)
         targets = re.findall(r'href="#([^"]+)"', result)
         anchors = re.findall(r'<a name="([^"]+)"', result)
-        self.assertEqual(targets, ["app-owner-app-one", "app-owner-app-two"])
-        self.assertEqual(targets, anchors)
+        self.assertEqual(anchors, ["app-owner-app-one", "app-owner-app-two"])
+        self.assertEqual(targets, [f"user-content-{anchor}" for anchor in anchors])
 
     def test_platform_labels_come_from_packages_not_document_names(self) -> None:
         release = {"releaseAssets": {"nodes": [

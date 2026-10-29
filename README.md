@@ -15,7 +15,7 @@ I also build desktop apps with Rust and Tauri, Windows tools with PowerShell/WPF
 Jump to an app below. **Download** opens its latest installers and release notes.
 
 <!-- pinned-projects:start -->
-<p><a href="#app-benedictusrey-whatsnow-for-whatsapp">WhatsNow</a> &nbsp; <a href="#app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#app-benedictusrey-tiktok-now">TikTok Now</a> &nbsp; <a href="#app-benedictusrey-ig-now">IG Now</a> &nbsp; <a href="#app-benedictusrey-x-now">X Now</a> &nbsp; <a href="#app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
+<p><a href="#user-content-app-benedictusrey-whatsnow-for-whatsapp">WhatsNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tiktok-now">TikTok Now</a> &nbsp; <a href="#user-content-app-benedictusrey-ig-now">IG Now</a> &nbsp; <a href="#user-content-app-benedictusrey-x-now">X Now</a> &nbsp; <a href="#user-content-app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
 <table width="100%">
 <tbody>
 <tr>

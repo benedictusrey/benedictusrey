@@ -106,7 +106,7 @@ def render_catalog(repositories: list[dict[str, Any]]) -> str:
     for repo in public:
         name = COPY.get(repo["nameWithOwner"], (repo["name"],))[0]
         anchor = escape("app-" + repo["nameWithOwner"].lower().replace("/", "-"), quote=True)
-        index.append(f'<a href="#{anchor}">{escape(name)}</a>')
+        index.append(f'<a href="#user-content-{anchor}">{escape(name)}</a>')
     rows = [
         '<p>' + ' &nbsp; '.join(index) + '</p>',
         '<table width="100%">',
