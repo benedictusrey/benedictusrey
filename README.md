@@ -1,93 +1,87 @@
 <p align="center">
-  <a href="#pinned-apps">
+  <a href="#user-content-pinned-apps">
     <img src="assets/banners/profile/github-banner.png" width="2172" height="724" fetchpriority="high" alt="Benedictus RH (@benedictusrey), researcher and builder. Scientific imaging, software engineering, and AI tools, illustrated through wood structure, imaging layers, and desktop software." />
   </a>
 </p>
 
 # Benedictus RH
 
-I'm Benedictus Reynaldo Hartanto, a PhD student in Nagoya, Japan, studying wood biodegradation with hyperspectral imaging, X-ray CT, and Python.
+I’m Benedictus Reynaldo Hartanto, a PhD student in Nagoya, Japan. I study wood biodegradation with hyperspectral imaging, X-ray CT, and Python, and build desktop software alongside my research.
 
-I build desktop apps for messaging and media, plus a portable Windows toolkit.
+**[Explore the projects](#user-content-pinned-apps)**
 
 ## Pinned apps
 
-Messaging, video, social media, and Windows tools. Explore an app or get its latest release.
+Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refreshed daily.
 
 <!-- pinned-projects:start -->
-<p><a href="#pinned-apps">WhatsNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tubenow">TubeNow</a> &nbsp; <a href="#user-content-app-benedictusrey-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-app-benedictusrey-tweak4windows">Tweak4Windows</a></p>
+<p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-tweak4windows">Tweak4Windows</a></p>
 
-<p><a name="app-benedictusrey-whatsnow-for-whatsapp"></a></p>
-
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://raw.githubusercontent.com/benedictusrey/WhatsNow-for-WhatsApp/c28b005bfa74db22fbe773cff22c8d9570b13f07/docs/assets/WhatsNow%20hero.png" width="1944" height="809" alt="WhatsNow project artwork"></a></p>
-
-<h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
-
-<p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong><br>Named accounts, Focus sessions, themes, and App Lock.</p>
-
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Release&nbsp;<strong>v2.6.2</strong></a><br>Available for Windows, macOS, Linux.</p>
-
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download WhatsNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="WhatsNow GitHub stars"></a></p>
-
-<p><a name="app-benedictusrey-tubenow"></a><br><br></p>
-
-<p><a href="https://github.com/benedictusrey/TubeNow"><img src="https://raw.githubusercontent.com/benedictusrey/TubeNow/9bd0cd322f8350caac03607ecede73f3ffcba186/assets/banner/tubenow_hero_banner_hd_1786308019150.jpg" width="1672" height="941" alt="TubeNow project artwork"></a></p>
-
-<h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
-
-<p><strong>Watch YouTube in a dedicated desktop app.</strong><br>Local ad and tracker filtering, fullscreen controls, and background playback.</p>
-
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest">Release&nbsp;<strong>v1.1.2</strong></a><br>Available for Windows, macOS, Linux.</p>
-
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download TubeNow: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="TubeNow GitHub stars"></a></p>
-
-<p><a name="app-benedictusrey-tiktok-now"></a><br><br></p>
-
-<p><a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://raw.githubusercontent.com/benedictusrey/TikTok-Now/2445a7a3a7d200a124a9319b581e9488f0ec2f1d/docs/assets/TikTok-Now%20Hero.png" width="1672" height="941" alt="TikTok Now project artwork"></a></p>
-
-<h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
-
-<p><strong>Browse TikTok with desktop playback controls.</strong><br>Pause on minimize, photo carousels, and a system tray menu.</p>
-
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a><br>Available for Windows, macOS, Linux.</p>
-
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download TikTok Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="TikTok Now GitHub stars"></a></p>
-
-<p><a name="app-benedictusrey-ig-now"></a><br><br></p>
-
-<p><a href="https://github.com/benedictusrey/IG-Now"><img src="https://raw.githubusercontent.com/benedictusrey/IG-Now/86ffe14cf24d9036bc524d33769038d092a7080b/docs/assets/IG-Now%20hero.png" width="1774" height="887" alt="IG Now project artwork"></a></p>
+<a name="app-benedictusrey-ig-now"></a>
 
 <h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
 
-<p><strong>Keep Instagram messages and media in their own desktop window.</strong><br>Message notifications, video seeking, and volume controls.</p>
+<p><a href="https://github.com/benedictusrey/IG-Now"><img src="assets/projects/ig-now.webp" width="1800" height="900" alt="IG Now project artwork"></a></p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest">Release&nbsp;<strong>v2.2.0</strong></a><br>Available for Windows, macOS, Linux.</p>
+<p><strong>Keep Instagram messages and media in their own desktop window.</strong> Message notifications, video seeking, and volume controls.</p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download IG Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="IG Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 10 GitHub stars"></a></p>
 
-<p><a name="app-benedictusrey-x-now"></a><br><br></p>
+<p><a href="https://github.com/benedictusrey/IG-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Download latest</a></p>
 
-<p><a href="https://github.com/benedictusrey/X-Now"><img src="https://raw.githubusercontent.com/benedictusrey/X-Now/6124e54b82168286e6a67c6d5f6118bb9f5ccfc7/docs/assets/xnow-autoplay.png" width="1672" height="941" alt="X Now project artwork"></a></p>
+<a name="app-benedictusrey-whatsnow-for-whatsapp"></a>
+
+<h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
+
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="assets/projects/whatsnow.webp" width="1800" height="900" alt="WhatsNow project artwork"></a></p>
+
+<p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong> Named accounts, Focus sessions, themes, and App Lock.</p>
+
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.2">Release <strong>v2.6.2</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars"></a></p>
+
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Download latest</a></p>
+
+## More pinned projects
+
+<a name="app-benedictusrey-tubenow"></a>
+
+<h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
+
+<p><strong>Watch YouTube in a dedicated desktop app.</strong> Local ad and tracker filtering, fullscreen controls, and background playback.</p>
+
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 4 GitHub stars"></a></p>
+
+<p><a href="https://github.com/benedictusrey/TubeNow"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Download latest</a></p>
+
+<a name="app-benedictusrey-tiktok-now"></a>
+
+<h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
+
+<p><strong>Browse TikTok with desktop playback controls.</strong> Pause on minimize, photo carousels, and a system tray menu.</p>
+
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 2 GitHub stars"></a></p>
+
+<p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
+
+<a name="app-benedictusrey-x-now"></a>
 
 <h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
 
-<p><strong>Use X in a dedicated desktop window.</strong><br>Tray controls, media saving, and themes that follow your system.</p>
+<p><strong>Use X in a dedicated desktop window.</strong> Tray controls, media saving, and themes that follow your system.</p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/latest">Release&nbsp;<strong>v2.1.0</strong></a><br>Available for Windows, macOS, Linux.</p>
+<p><a href="https://github.com/benedictusrey/X-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="X Now: 1 GitHub stars"></a></p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download X Now: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="X Now GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/X-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Download latest</a></p>
 
-<p><a name="app-benedictusrey-tweak4windows"></a><br><br></p>
-
-<p><a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://raw.githubusercontent.com/benedictusrey/Tweak4Windows/e3632e38d933b57cb26fc6e11daf46f77b682644/assets/banner/Tweak4Windows_Hero.png" width="1672" height="940" alt="Tweak4Windows project artwork"></a></p>
+<a name="app-benedictusrey-tweak4windows"></a>
 
 <h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4Windows</a></h3>
 
-<p><strong>Review and adjust Windows from one portable toolkit.</strong><br>Reversible settings, hardware information, and maintenance previews.</p>
+<p><strong>Review and adjust Windows from one portable toolkit.</strong> Reversible settings, hardware information, and maintenance previews.</p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Release&nbsp;<strong>v1.0.0</strong></a><br>Available for Windows.</p>
+<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> · Available for Windows. &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Tweak4Windows: 1 GitHub stars"></a></p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><img src="assets/download.png" width="136" height="44" align="middle" alt="Download Tweak4Windows: choose an installer on the latest release page"></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" height="24" align="middle" alt="Tweak4Windows GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/Tweak4Windows"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Download latest</a></p>
 <!-- pinned-projects:end -->
 
 ## Activity and updates
@@ -118,7 +112,7 @@ Found something useful? Star its repository or share feedback through its issues
   </a>
 </p>
 
-<sub>Stats and calendar refresh daily. They reflect GitHub activity; each tool uses its own counting window.</sub>
+Stats and calendar refresh daily. They reflect GitHub activity; each tool uses its own counting window.
 
 </details>
 
@@ -127,12 +121,16 @@ Found something useful? Star its repository or share feedback through its issues
 
 [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) · [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) · [Shields.io](https://github.com/badges/shields)
 
-The [daily workflow](.github/workflows/profile-stats.yml) keeps this showcase and its release labels in sync with public pinned repositories, in pin order. Star badges update through Shields.io and may be cached briefly. Cards and calendar are stored in this repository. Language cards exclude this profile and the opencodex fork; public code may not include my research.
+The [daily workflow](.github/workflows/profile-stats.yml) ranks public pinned projects by their current stars and features the leading two. Ties keep the original pin order. Refreshes are scheduled for 06:23 Asia/Jayapura; GitHub may queue them later. Star badges update through Shields.io and can briefly differ from the daily ordering.
 
-Project artwork is reused from the corresponding repositories. Each cover opens its project; **Download** opens the latest installers and release notes.
+**Explore project** opens source and documentation; **Download latest** opens the published installers and release notes. Covers use the original app marks and are stored here, with no scheduled artwork generation.
+
+Cards and calendar are stored in this repository. Language cards exclude this profile and the opencodex fork; public code may not include my research.
 
 The supplied banner is stored in this repository and needs no scheduled refresh.
 
 Generator versions are pinned. [Dependabot](.github/dependabot.yml) checks weekly for action updates and proposes pull requests for review.
 
 </details>
+
+**[Browse all repositories](https://github.com/benedictusrey?tab=repositories)**

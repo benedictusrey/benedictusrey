@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project cover source</title>
+  <style>
+    @font-face {
+      font-family: Manrope;
+      src: url("fonts/Manrope.ttf") format("truetype");
+      font-weight: 200 800;
+      font-display: block;
+    }
+    :root {
+      --navy: #071521;
+      --surface: #15283a;
+      --ink: #f0f6fc;
+      --cyan: #50c8e8;
+      --wood: #b88a50;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main {
+      width: 1800px;
+      height: 900px;
+      display: grid;
+      grid-template-columns: 1210px 590px;
+      background: var(--navy);
+      color: var(--ink);
+    }
+    h1 {
+      align-self: center;
+      margin: 0;
+      padding: 0 96px;
+      font: 800 216px/.98 Manrope, sans-serif;
+      letter-spacing: -.055em;
+    }
+    h1 span { display: block; }
+    figure {
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: var(--cyan);
+    }
+    img { width: 380px; height: 380px; object-fit: contain; }
+  </style>
+</head>
+<body>
+  <main aria-label="Project artwork">
+    <h1></h1>
+    <figure><img alt=""></figure>
+  </main>
+  <script>
+    const projects = {
+      "ig-now": ["IG", "Now"],
+      "whatsnow": ["Whats", "Now"],
+      "tubenow": ["Tube", "Now"],
+      "tiktok-now": ["TikTok", "Now"],
+      "x-now": ["X", "Now"],
+      "tweak4windows": ["Tweak4", "Windows"]
+    };
+    const slug = new URLSearchParams(location.search).get("project") || "ig-now";
+    if (!Object.hasOwn(projects, slug)) throw new Error("Unknown project");
+    const words = projects[slug];
+    document.title = `${words.join(" ")} project artwork`;
+    for (const word of words) {
+      const line = document.createElement("span");
+      line.textContent = word;
+      document.querySelector("h1").append(line);
+    }
+    document.querySelector("img").src = `../apps/${slug}.png`;
+    document.querySelector("img").alt = `${words.join(" ")} app mark`;
+  </script>
+</body>
+</html>

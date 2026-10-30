@@ -1,10 +1,11 @@
-"""Keep the profile's app catalog in the same order as public GitHub pins."""
+"""Refresh the public pinned-project catalog, ranked by GitHub stars."""
 
 from __future__ import annotations
 
 import json
 import os
-from html import escape
+import re
+from html import escape, unescape
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -17,7 +18,7 @@ QUERY = """query {
   user(login: "benedictusrey") {
     pinnedItems(first: 6, types: REPOSITORY) {
       nodes { ... on Repository {
-        name nameWithOwner description url isPrivate
+        name nameWithOwner description url isPrivate stargazerCount
         latestRelease {
           tagName url isPrerelease isDraft
           releaseAssets(first: 100) { totalCount nodes { name } }
@@ -28,66 +29,99 @@ QUERY = """query {
 }"""
 COPY = {
     "benedictusrey/WhatsNow-for-WhatsApp": (
-        "WhatsNow", "Keep multiple WhatsApp accounts in one focused desktop workspace.",
+        "WhatsNow",
+        "Keep multiple WhatsApp accounts in one focused desktop workspace.",
         "Named accounts, Focus sessions, themes, and App Lock.",
     ),
     "benedictusrey/TubeNow": (
-        "TubeNow", "Watch YouTube in a dedicated desktop app.",
+        "TubeNow",
+        "Watch YouTube in a dedicated desktop app.",
         "Local ad and tracker filtering, fullscreen controls, and background playback.",
     ),
     "benedictusrey/TikTok-Now": (
-        "TikTok Now", "Browse TikTok with desktop playback controls.",
+        "TikTok Now",
+        "Browse TikTok with desktop playback controls.",
         "Pause on minimize, photo carousels, and a system tray menu.",
     ),
     "benedictusrey/IG-Now": (
-        "IG Now", "Keep Instagram messages and media in their own desktop window.",
+        "IG Now",
+        "Keep Instagram messages and media in their own desktop window.",
         "Message notifications, video seeking, and volume controls.",
     ),
     "benedictusrey/X-Now": (
-        "X Now", "Use X in a dedicated desktop window.",
+        "X Now",
+        "Use X in a dedicated desktop window.",
         "Tray controls, media saving, and themes that follow your system.",
     ),
     "benedictusrey/Tweak4Windows": (
-        "Tweak4Windows", "Review and adjust Windows from one portable toolkit.",
+        "Tweak4Windows",
+        "Review and adjust Windows from one portable toolkit.",
         "Reversible settings, hardware information, and maintenance previews.",
     ),
 }
 ARTWORK = {
-    "benedictusrey/WhatsNow-for-WhatsApp": (
-        "c28b005bfa74db22fbe773cff22c8d9570b13f07", "docs/assets/WhatsNow hero.png", 1944, 809,
-    ),
-    "benedictusrey/TubeNow": (
-        "9bd0cd322f8350caac03607ecede73f3ffcba186",
-        "assets/banner/tubenow_hero_banner_hd_1786308019150.jpg", 1672, 941,
-    ),
-    "benedictusrey/TikTok-Now": (
-        "2445a7a3a7d200a124a9319b581e9488f0ec2f1d", "docs/assets/TikTok-Now Hero.png", 1672, 941,
-    ),
-    "benedictusrey/IG-Now": (
-        "86ffe14cf24d9036bc524d33769038d092a7080b", "docs/assets/IG-Now hero.png", 1774, 887,
-    ),
-    "benedictusrey/X-Now": (
-        "6124e54b82168286e6a67c6d5f6118bb9f5ccfc7", "docs/assets/xnow-autoplay.png", 1672, 941,
-    ),
-    "benedictusrey/Tweak4Windows": (
-        "e3632e38d933b57cb26fc6e11daf46f77b682644", "assets/banner/Tweak4Windows_Hero.png", 1672, 940,
-    ),
+    "benedictusrey/WhatsNow-for-WhatsApp": "whatsnow",
+    "benedictusrey/TubeNow": "tubenow",
+    "benedictusrey/TikTok-Now": "tiktok-now",
+    "benedictusrey/IG-Now": "ig-now",
+    "benedictusrey/X-Now": "x-now",
+    "benedictusrey/Tweak4Windows": "tweak4windows",
 }
+RESERVED_FRAGMENTS = frozenset(
+    {
+        "benedictus-rh",
+        "benedictusrey",
+        "pinned-apps",
+        "pinned-projects",
+        "featured-projects",
+        "more-pinned-projects",
+        "activity-and-updates",
+        "github-progress",
+        "a-year-of-contributions-in-3d",
+        "tools--automatic-updates",
+    }
+)
 
 
 def available_platforms(release: dict[str, Any]) -> str:
     """Label only platforms with recognizable packages in the published release."""
-    names = [asset["name"].lower() for asset in release["releaseAssets"].get("nodes", [])]
-    names = [name for name in names if name.endswith((
-        ".exe", ".msi", ".zip", ".dmg", ".app.tar.gz", ".appimage", ".deb", ".rpm",
-        ".tar.gz", ".tgz", "-x86_64", "-aarch64", "-universal",
-    ))]
+    names = [
+        asset["name"].lower()
+        for asset in release.get("releaseAssets", {}).get("nodes", [])
+    ]
+    names = [
+        name
+        for name in names
+        if name.endswith(
+            (
+                ".exe",
+                ".msi",
+                ".zip",
+                ".dmg",
+                ".app.tar.gz",
+                ".appimage",
+                ".deb",
+                ".rpm",
+                ".tar.gz",
+                ".tgz",
+                "-x86_64",
+                "-aarch64",
+                "-universal",
+            )
+        )
+    ]
     platforms = []
-    if any(name.endswith((".exe", ".msi")) or ("windows" in name and name.endswith(".zip")) for name in names):
+    if any(
+        name.endswith((".exe", ".msi")) or ("windows" in name and name.endswith(".zip"))
+        for name in names
+    ):
         platforms.append("Windows")
     if any(name.endswith((".dmg", ".app.tar.gz")) or "macos" in name for name in names):
         platforms.append("macOS")
-    if any(name.endswith((".appimage", ".deb", ".rpm")) or "linux" in name for name in names):
+    if any(
+        name.endswith((".appimage", ".deb", ".rpm")) or "linux" in name
+        for name in names
+    ):
         platforms.append("Linux")
     return ", ".join(platforms)
 
@@ -107,86 +141,216 @@ def fetch_pins() -> list[dict[str, Any]]:
         payload = json.load(response)
     if payload.get("errors"):
         raise RuntimeError("GitHub could not read pinned repositories")
-    return payload["data"]["user"]["pinnedItems"]["nodes"]
+    nodes = payload["data"]["user"]["pinnedItems"]["nodes"]
+    if not isinstance(nodes, list) or any(not isinstance(node, dict) for node in nodes):
+        raise RuntimeError("GitHub returned an invalid pinned-repository list")
+    return nodes
 
 
-def render_catalog(repositories: list[dict[str, Any]]) -> str:
-    """Render public pins only; never invent release availability or star counts."""
+def heading_fragment(title: str) -> str:
+    """Return GitHub's fragment for ordinary ASCII heading text."""
+    return re.sub(r"[^\w -]", "", title.lower()).replace(" ", "-")
+
+
+def surrounding_fragments(text: str) -> set[str]:
+    """Reserve headings and explicit anchors outside the owned README block."""
+    titles = re.findall(r"^ {0,3}#{1,6}\s+(.+?)(?:\s+#+)?\s*$", text, re.M)
+    titles.extend(re.findall(r"<h[1-6]\b[^>]*>(.*?)</h[1-6]>", text, re.I))
+    fragments = set(RESERVED_FRAGMENTS)
+    for title in titles:
+        plain = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", title)
+        plain = unescape(re.sub(r"<[^>]+>", "", plain))
+        base = heading_fragment(plain)
+        fragment = base
+        suffix = 0
+        while fragment in fragments:
+            suffix += 1
+            fragment = f"{base}-{suffix}"
+        fragments.update((base, fragment))
+    fragments.update(re.findall(r"(?:id|name)=[\'\"]([^\'\"]+)[\'\"]", text))
+    return fragments
+
+
+def navigation_targets(
+    public: list[dict[str, Any]],
+    reserved_fragments: set[str],
+) -> list[tuple[str, str, str]]:
+    """Use native headings where unambiguous, retaining legacy named anchors."""
+    legacy_anchors = []
+    occupied = set(reserved_fragments) | set(RESERVED_FRAGMENTS)
+    for repo in public:
+        base = "app-" + re.sub(r"[^a-z0-9_-]", "-", repo["nameWithOwner"].lower())
+        anchor = base
+        suffix = 1
+        while anchor in legacy_anchors:
+            suffix += 1
+            anchor = f"{base}-{suffix}"
+        legacy_anchors.append(anchor)
+    occupied.update(legacy_anchors)
+    # Reserve duplicate-heading suffixes before allocating any custom anchor.
+    names = [COPY.get(repo["nameWithOwner"], (repo["name"],))[0] for repo in public]
+    occupied.update(heading_fragment(name) for name in names)
+    headings = set(reserved_fragments) | set(RESERVED_FRAGMENTS)
+    actual_fragments = []
+    for name in names:
+        base = heading_fragment(name)
+        actual = base
+        suffix = 0
+        while actual in headings:
+            suffix += 1
+            actual = f"{base}-{suffix}"
+        headings.add(actual)
+        actual_fragments.append(actual)
+    occupied.update(actual_fragments)
+    targets = []
+    for name, legacy, actual in zip(names, legacy_anchors, actual_fragments):
+        base = heading_fragment(name)
+        native = (
+            bool(base)
+            and name.isascii()
+            and actual == base
+            and base not in legacy_anchors
+            and not base.startswith("user-content-")
+        )
+        custom = ""
+        destination = f"user-content-{base}"
+        if not native:
+            custom = f"catalog-{legacy}"
+            suffix = 1
+            while custom in occupied or f"user-content-{custom}" in occupied:
+                suffix += 1
+                custom = f"catalog-{legacy}-{suffix}"
+            occupied.add(custom)
+            destination = f"user-content-{custom}"
+        targets.append((legacy, custom, destination))
+    return targets
+
+
+def render_catalog(
+    repositories: list[dict[str, Any]],
+    *,
+    root: Path | None = None,
+    reserved_fragments: set[str] | None = None,
+) -> str:
+    """Rank public pins stably; feature at most two locally available covers."""
+    root = ROOT if root is None else root
     public = [repo for repo in repositories if not repo["isPrivate"]]
+    for repo in public:
+        stars = repo["stargazerCount"]
+        if type(stars) is not int or stars < 0:
+            raise ValueError("Public repositories require a nonnegative stargazerCount")
+    public.sort(key=lambda repo: -repo["stargazerCount"])
     if not public:
-        return "No public projects are pinned yet. [Browse repositories](https://github.com/benedictusrey?tab=repositories)."
+        return (
+            "No public projects are pinned yet. "
+            "[Browse repositories](https://github.com/benedictusrey?tab=repositories)."
+        )
+    navigation = navigation_targets(public, reserved_fragments or set())
     index = []
-    for position, repo in enumerate(public):
+    for repo, (_, _, destination) in zip(public, navigation):
         name = COPY.get(repo["nameWithOwner"], (repo["name"],))[0]
-        anchor = escape("app-" + repo["nameWithOwner"].lower().replace("/", "-"), quote=True)
-        destination = "#pinned-apps" if position == 0 else f"#user-content-{anchor}"
-        index.append(f'<a href="{destination}">{escape(name).replace(" ", "&nbsp;")}</a>')
-    rows = ['<p>' + ' &nbsp; '.join(index) + '</p>']
-    for position, repo in enumerate(public):
+        label = escape(name).replace(" ", "&nbsp;")
+        index.append(f'<a href="#{escape(destination)}">{label}</a>')
+    rows = ["<p>" + " &nbsp; ".join(index) + "</p>"]
+    for position, (repo, (legacy, custom, _)) in enumerate(zip(public, navigation)):
+        if position == 2:
+            rows.append("## More pinned projects")
         full_name = repo["nameWithOwner"]
         name, purpose, features = COPY.get(
-            full_name, (repo["name"], repo.get("description") or "View this project on GitHub.", "")
+            full_name,
+            (
+                repo["name"],
+                repo.get("description") or "View this project on GitHub.",
+                "See the repository for features and usage.",
+            ),
         )
         title = escape(name)
-        anchor = escape("app-" + full_name.lower().replace("/", "-"), quote=True)
         url = escape(repo["url"], quote=True)
         badge_repo = quote(full_name, safe="/")
         release = repo.get("latestRelease")
-        downloadable = (
-            release and not release["isDraft"] and not release["isPrerelease"]
-            and release["releaseAssets"]["totalCount"] > 0
-        )
-        action = "Download" if downloadable else "View project"
-        target = f"{url}/releases/latest" if downloadable else url
-        release_link = (
-            f'<a href="{target}">Release&nbsp;<strong>{escape(release["tagName"])}</strong></a>'
-            if downloadable else ""
-        )
-        artwork = ARTWORK.get(full_name)
-        cover = ""
-        if artwork:
-            revision, path, width, height = artwork
-            source = f"https://raw.githubusercontent.com/{full_name}/{revision}/{quote(path)}"
-            cover = (
-                f'<p><a href="{url}"><img src="{source}" width="{width}" '
-                f'height="{height}" alt="{title} project artwork"></a></p>'
+        stable = release and not release["isDraft"] and not release["isPrerelease"]
+        platforms = available_platforms(release) if stable else ""
+        metadata = "No stable release is available."
+        if stable:
+            tag = release["tagName"]
+            release_url = escape(
+                release.get("url")
+                or f"{repo['url']}/releases/tag/{quote(tag, safe='')}",
+                quote=True,
             )
-        platforms = available_platforms(release) if downloadable else ""
-        platform_line = f"Available for {platforms}." if platforms else ""
-        metadata = "<br>".join(part for part in (release_link, platform_line) if part)
-        action_link = (
-            f'<a href="{target}"><img src="assets/download.png" width="136" height="44" align="middle" '
-            f'alt="Download {escape(name)}: choose an installer on the latest release page"></a>'
-            if downloadable else f'<a href="{target}"><strong>{action}</strong></a>'
+            metadata = (
+                f'<a href="{release_url}">Release <strong>{escape(tag)}</strong></a>'
+            )
+            if platforms:
+                metadata += f" · Available for {platforms}."
+        actions = f'<a href="{url}"><strong>Explore project</strong></a>'
+        if stable and platforms and release["releaseAssets"]["totalCount"] > 0:
+            actions += f' &nbsp; <a href="{url}/releases/latest">Download latest</a>'
+        anchors = f'<a name="{escape(legacy)}"></a>'
+        if custom:
+            anchors += f'<a name="{escape(custom)}"></a>'
+        rows.extend(
+            [
+                anchors,
+                f'<h3><a href="{url}">{title}</a></h3>',
+            ]
         )
-        # Native line breaks clear GitHub's sticky profile tabs after a jump.
-        # The first link uses the native section heading and needs no spacer.
-        spacer = "<br><br>" if position else ""
-        rows.extend([
-            f'<p><a name="{anchor}"></a>{spacer}</p>',
-            cover,
-            f'<h3><a href="{url}">{title}</a></h3>',
-            f'<p><strong>{escape(purpose)}</strong><br>{escape(features)}</p>',
-            f'<p>{metadata}</p>' if metadata else "",
-            f'<p>{action_link} &nbsp; <a href="{url}"><img src="https://img.shields.io/github/stars/{badge_repo}'
-            f'?style=flat-square&amp;label=stars&amp;color=93621b&amp;labelColor=30363d" '
-            f'height="24" align="middle" alt="{escape(name)} GitHub stars"></a></p>',
-        ])
-    return "\n\n".join(part for part in rows if part)
+        if position < 2:
+            slug = ARTWORK.get(full_name)
+            path = f"assets/projects/{slug}.webp" if slug else None
+            if path and (root / path).is_file():
+                rows.append(
+                    f'<p><a href="{url}"><img src="{path}" width="1800" '
+                    f'height="900" alt="{title} project artwork"></a></p>'
+                )
+        badge = (
+            f'<a href="{url}/stargazers"><img '
+            f'src="https://img.shields.io/github/stars/{badge_repo}'
+            '?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" '
+            f'alt="{title}: {repo["stargazerCount"]} GitHub stars"></a>'
+        )
+        rows.extend(
+            [
+                f"<p><strong>{escape(purpose)}</strong> {escape(features)}</p>",
+                f"<p>{metadata} &nbsp; {badge}</p>",
+                f"<p>{actions}</p>",
+            ]
+        )
+    return "\n\n".join(rows)
 
 
 def update_readme(repositories: list[dict[str, Any]], path: Path) -> None:
     """Replace one managed block only after the complete catalog is rendered."""
-    text = path.read_text(encoding="utf-8")
-    if text.count(START) != 1 or text.count(END) != 1:
+    text = path.read_bytes().decode("utf-8")
+    if (
+        text.count(START) != 1
+        or text.count(END) != 1
+        or text.index(START) >= text.index(END)
+    ):
         raise ValueError("README must contain exactly one pinned-projects block")
     before, rest = text.split(START)
     _, after = rest.split(END)
-    updated = f"{before}{START}\n{render_catalog(repositories)}\n{END}{after}"
+    catalog = render_catalog(
+        repositories,
+        root=path.parent,
+        reserved_fragments=surrounding_fragments(before + "\n" + after),
+    )
+    newline = "\r\n" if "\r\n" in text else "\n"
+    catalog = catalog.replace("\n", newline)
+    updated = f"{before}{START}{newline}{catalog}{newline}{END}{after}"
     temporary = path.with_suffix(".md.tmp")
-    temporary.write_text(updated, encoding="utf-8")
-    temporary.replace(path)
+    try:
+        temporary.write_bytes(updated.encode("utf-8"))
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def main(path: Path | None = None) -> None:
+    """Fetch completely before updating; propagate failures to the daily workflow."""
+    repositories = fetch_pins()
+    update_readme(repositories, ROOT / "README.md" if path is None else path)
 
 
 if __name__ == "__main__":
-    update_readme(fetch_pins(), ROOT / "README.md")
+    main()
