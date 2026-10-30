@@ -17,7 +17,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 <!-- pinned-projects:start -->
 <p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-tweak4windows">Tweak4Windows</a></p>
 
-<a name="app-benedictusrey-ig-now"></a>
+<a id="app-benedictusrey-ig-now" name="app-benedictusrey-ig-now"></a>
 
 <h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
 
@@ -29,7 +29,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><a href="https://github.com/benedictusrey/IG-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Download latest</a></p>
 
-<a name="app-benedictusrey-whatsnow-for-whatsapp"></a>
+<a id="app-benedictusrey-whatsnow-for-whatsapp" name="app-benedictusrey-whatsnow-for-whatsapp"></a>
 
 <h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
 
@@ -43,7 +43,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 ## More pinned projects
 
-<a name="app-benedictusrey-tubenow"></a>
+<a id="app-benedictusrey-tubenow" name="app-benedictusrey-tubenow"></a>
 
 <h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
 
@@ -53,7 +53,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><a href="https://github.com/benedictusrey/TubeNow"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Download latest</a></p>
 
-<a name="app-benedictusrey-tiktok-now"></a>
+<a id="app-benedictusrey-tiktok-now" name="app-benedictusrey-tiktok-now"></a>
 
 <h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
 
@@ -63,7 +63,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
 
-<a name="app-benedictusrey-x-now"></a>
+<a id="app-benedictusrey-x-now" name="app-benedictusrey-x-now"></a>
 
 <h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
 
@@ -73,7 +73,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><a href="https://github.com/benedictusrey/X-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Download latest</a></p>
 
-<a name="app-benedictusrey-tweak4windows"></a>
+<a id="app-benedictusrey-tweak4windows" name="app-benedictusrey-tweak4windows"></a>
 
 <h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4Windows</a></h3>
 

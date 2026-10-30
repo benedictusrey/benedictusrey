@@ -286,9 +286,9 @@ def render_catalog(
         actions = f'<a href="{url}"><strong>Explore project</strong></a>'
         if stable and platforms and release["releaseAssets"]["totalCount"] > 0:
             actions += f' &nbsp; <a href="{url}/releases/latest">Download latest</a>'
-        anchors = f'<a name="{escape(legacy)}"></a>'
+        anchors = f'<a id="{escape(legacy)}" name="{escape(legacy)}"></a>'
         if custom:
-            anchors += f'<a name="{escape(custom)}"></a>'
+            anchors += f'<a id="{escape(custom)}" name="{escape(custom)}"></a>'
         rows.extend(
             [
                 anchors,

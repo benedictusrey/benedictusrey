@@ -61,6 +61,7 @@ class CatalogHTML(HTMLParser):
         self.headings: list[str] = []
         self.images: list[dict[str, str | None]] = []
         self.anchors: list[str] = []
+        self.ids: list[str] = []
         self.links: list[tuple[str, str, bool]] = []
         self._heading: list[str] | None = None
         self._link: dict[str, Any] | None = None
@@ -68,6 +69,8 @@ class CatalogHTML(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attributes = dict(attrs)
+        if attributes.get("id"):
+            self.ids.append(str(attributes["id"]))
         if tag == "h3":
             self._heading = []
         if tag == "img":
@@ -499,6 +502,7 @@ class CatalogTests(unittest.TestCase):
         parsed = CatalogHTML(
             self.render([repository(name, 0) for name in catalog.COPY])
         )
+        self.assertEqual(parsed.ids, parsed.anchors)
         self.assertEqual(
             parsed.jumps,
             [
@@ -549,6 +553,7 @@ class CatalogTests(unittest.TestCase):
             self.assertIn(jump.removeprefix("#user-content-"), parsed.anchors)
         self.assertEqual(parsed.jumps[4], "#user-content-same")
         self.assertEqual(len(set(parsed.anchors)), len(parsed.anchors))
+        self.assertTrue(set(parsed.anchors).issubset(parsed.ids))
 
     def test_new_external_heading_collision_uses_fallback_on_update(self) -> None:
         self.path.write_text(
