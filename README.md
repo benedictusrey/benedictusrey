@@ -25,7 +25,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Keep Instagram messages and media in their own desktop window.</strong> Message notifications, video seeking, and volume controls.</p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 10 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 11 GitHub stars"></a></p>
 
 <p><a href="https://github.com/benedictusrey/IG-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Download latest</a></p>
 
