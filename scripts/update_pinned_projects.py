@@ -267,6 +267,8 @@ def render_catalog(
         title = escape(name)
         url = escape(repo["url"], quote=True)
         badge_repo = quote(full_name, safe="/")
+        star_count = repo["stargazerCount"]
+        star_label = "star" if star_count == 1 else "stars"
         release = repo.get("latestRelease")
         stable = release and not release["isDraft"] and not release["isPrerelease"]
         platforms = available_platforms(release) if stable else ""
@@ -282,7 +284,7 @@ def render_catalog(
                 f'<a href="{release_url}">Release <strong>{escape(tag)}</strong></a>'
             )
             if platforms:
-                metadata += f" · Available for {platforms}."
+                metadata += f" · {platforms}"
         actions = f'<a href="{url}"><strong>Explore project</strong></a>'
         if stable and platforms and release["releaseAssets"]["totalCount"] > 0:
             actions += f' &nbsp; <a href="{url}/releases/latest">Download latest</a>'
@@ -307,7 +309,7 @@ def render_catalog(
             f'<a href="{url}/stargazers"><img '
             f'src="https://img.shields.io/github/stars/{badge_repo}'
             '?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" '
-            f'alt="{title}: {repo["stargazerCount"]} GitHub stars"></a>'
+            f'alt="{title}: {star_count} GitHub {star_label} at daily refresh"></a>'
         )
         rows.extend(
             [

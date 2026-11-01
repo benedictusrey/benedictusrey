@@ -12,7 +12,7 @@ I’m Benedictus Reynaldo Hartanto, a PhD student in Nagoya, Japan. I study wood
 
 ## Pinned apps
 
-Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refreshed daily.
+Ranked by GitHub stars, updated daily.
 
 <!-- pinned-projects:start -->
 <p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-tweak4windows">Tweak4Windows</a></p>
@@ -25,7 +25,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Keep Instagram messages and media in their own desktop window.</strong> Message notifications, video seeking, and volume controls.</p>
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 11 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 11 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/IG-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Download latest</a></p>
 
@@ -37,7 +37,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong> Named accounts, Focus sessions, themes, and App Lock.</p>
 
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.2">Release <strong>v2.6.2</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.2">Release <strong>v2.6.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Download latest</a></p>
 
@@ -49,7 +49,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Watch YouTube in a dedicated desktop app.</strong> Local ad and tracker filtering, fullscreen controls, and background playback.</p>
 
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 4 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 4 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/TubeNow"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Download latest</a></p>
 
@@ -59,7 +59,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Browse TikTok with desktop playback controls.</strong> Pause on minimize, photo carousels, and a system tray menu.</p>
 
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 3 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 3 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
 
@@ -69,7 +69,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Use X in a dedicated desktop window.</strong> Tray controls, media saving, and themes that follow your system.</p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="X Now: 1 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/X-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="X Now: 1 GitHub star at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/X-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Download latest</a></p>
 
@@ -79,7 +79,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Review and adjust Windows from one portable toolkit.</strong> Reversible settings, hardware information, and maintenance previews.</p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> · Available for Windows. &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Tweak4Windows: 1 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> · Windows &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Tweak4Windows: 1 GitHub star at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/Tweak4Windows"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Download latest</a></p>
 <!-- pinned-projects:end -->

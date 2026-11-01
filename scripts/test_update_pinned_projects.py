@@ -215,8 +215,8 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(
             [image["alt"] for image in parsed.images],
             [
-                "first: 0 GitHub stars",
-                "second: 0 GitHub stars",
+                "first: 0 GitHub stars at daily refresh",
+                "second: 0 GitHub stars at daily refresh",
             ],
         )
 
@@ -408,7 +408,7 @@ class CatalogTests(unittest.TestCase):
         self.assertIn(
             (release["url"], "Release v1.2.3 & stable", True), CatalogHTML(markup).links
         )
-        self.assertIn("Available for Windows.", markup)
+        self.assertIn(" · Windows", markup)
         self.assertNotIn("img.shields.io/github/v/release", markup)
 
     def test_release_tag_url_fallback_is_encoded(self) -> None:
@@ -484,6 +484,9 @@ class CatalogTests(unittest.TestCase):
 
     def test_stars_badge_is_metadata_separate_from_actions(self) -> None:
         markup = self.render([repository(stars=0, release=stable_release())])
+        self.assertIn(
+            "1 GitHub star at daily refresh", self.render([repository(stars=1)])
+        )
         parsed = CatalogHTML(markup)
         self.assertEqual(len(parsed.images), 1)
         self.assertIn(
@@ -661,7 +664,10 @@ class CatalogTests(unittest.TestCase):
         ) as fetch:
             catalog.main(self.path)
         fetch.assert_called_once_with()
-        self.assertIn("7 GitHub stars", self.path.read_text(encoding="utf-8"))
+        self.assertIn(
+            "app: 7 GitHub stars at daily refresh",
+            self.path.read_text(encoding="utf-8"),
+        )
 
     def test_main_default_path_can_be_isolated(self) -> None:
         self.write_readme()
