@@ -59,7 +59,7 @@ Messaging, video, social media, and Windows tools. Ordered by GitHub stars, refr
 
 <p><strong>Browse TikTok with desktop playback controls.</strong> Pause on minimize, photo carousels, and a system tray menu.</p>
 
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 2 GitHub stars"></a></p>
+<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Available for Windows, macOS, Linux. &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 3 GitHub stars"></a></p>
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
 
