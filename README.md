@@ -49,7 +49,7 @@ Ranked by GitHub stars, updated daily.
 
 <p><strong>Watch YouTube in a dedicated desktop app.</strong> Local ad and tracker filtering, fullscreen controls, and background playback.</p>
 
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 4 GitHub stars at daily refresh"></a></p>
+<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 5 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/TubeNow"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Download latest</a></p>
 
