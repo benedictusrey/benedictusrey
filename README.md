@@ -15,7 +15,7 @@ I’m Benedictus Reynaldo Hartanto, a PhD student in Nagoya, Japan. I study wood
 Ranked by GitHub stars, updated daily.
 
 <!-- pinned-projects:start -->
-<p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-x-now">X&nbsp;Now</a> &nbsp; <a href="#user-content-tweak4windows">Tweak4Windows</a></p>
+<p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-antigravity-monitor">Antigravity-Monitor</a> &nbsp; <a href="#user-content-monitormate">MonitorMate</a></p>
 
 <a id="app-benedictusrey-ig-now" name="app-benedictusrey-ig-now"></a>
 
@@ -63,25 +63,25 @@ Ranked by GitHub stars, updated daily.
 
 <p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
 
-<a id="app-benedictusrey-x-now" name="app-benedictusrey-x-now"></a>
+<a id="app-benedictusrey-antigravity-monitor" name="app-benedictusrey-antigravity-monitor"></a>
 
-<h3><a href="https://github.com/benedictusrey/X-Now">X Now</a></h3>
+<h3><a href="https://github.com/benedictusrey/Antigravity-Monitor">Antigravity-Monitor</a></h3>
 
-<p><strong>Use X in a dedicated desktop window.</strong> Tray controls, media saving, and themes that follow your system.</p>
+<p><strong>📊 Live context, conversation awareness, and model quota monitoring for Antigravity desktop, Antigravity IDE, and VS Code.</strong> See the repository for features and usage.</p>
 
-<p><a href="https://github.com/benedictusrey/X-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/X-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/X-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="X Now: 1 GitHub star at daily refresh"></a></p>
+<p><a href="https://github.com/benedictusrey/Antigravity-Monitor/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Antigravity-Monitor/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Antigravity-Monitor?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Antigravity-Monitor: 1 GitHub star at daily refresh"></a></p>
 
-<p><a href="https://github.com/benedictusrey/X-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/X-Now/releases/latest">Download latest</a></p>
+<p><a href="https://github.com/benedictusrey/Antigravity-Monitor"><strong>Explore project</strong></a></p>
 
-<a id="app-benedictusrey-tweak4windows" name="app-benedictusrey-tweak4windows"></a>
+<a id="app-benedictusrey-monitormate" name="app-benedictusrey-monitormate"></a>
 
-<h3><a href="https://github.com/benedictusrey/Tweak4Windows">Tweak4Windows</a></h3>
+<h3><a href="https://github.com/benedictusrey/MonitorMate">MonitorMate</a></h3>
 
-<p><strong>Review and adjust Windows from one portable toolkit.</strong> Reversible settings, hardware information, and maintenance previews.</p>
+<p><strong>Monitor comfort, break reminders and focus for Windows, with a smaller reminder preview for Linux and macOS. Local data, MIT licensed.</strong> See the repository for features and usage.</p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> · Windows &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Tweak4Windows?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Tweak4Windows: 1 GitHub star at daily refresh"></a></p>
+<p>No stable release is available. &nbsp; <a href="https://github.com/benedictusrey/MonitorMate/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/MonitorMate?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="MonitorMate: 1 GitHub star at daily refresh"></a></p>
 
-<p><a href="https://github.com/benedictusrey/Tweak4Windows"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest">Download latest</a></p>
+<p><a href="https://github.com/benedictusrey/MonitorMate"><strong>Explore project</strong></a></p>
 <!-- pinned-projects:end -->
 
 ## Activity and updates
