@@ -37,7 +37,7 @@ Ranked by GitHub stars, updated daily.
 
 <p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong> Named accounts, Focus sessions, themes, and App Lock.</p>
 
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.2">Release <strong>v2.6.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars at daily refresh"></a></p>
+<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.3">Release <strong>v2.6.3</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars at daily refresh"></a></p>
 
 <p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Download latest</a></p>
 
