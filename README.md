@@ -1,136 +1,86 @@
 <p align="center">
-  <a href="#user-content-pinned-apps">
-    <img src="assets/banners/profile/github-banner.png" width="2172" height="724" fetchpriority="high" alt="Benedictus RH (@benedictusrey), researcher and builder. Scientific imaging, software engineering, and AI tools, illustrated through wood structure, imaging layers, and desktop software." />
+  <a href="#user-content-apps">
+    <img src="assets/banners/profile/github-banner.png" width="900" alt="Benedictus RH (@benedictusrey), researcher and builder. Scientific imaging, software engineering, and AI tools, illustrated through wood structure, imaging layers, and desktop software.">
   </a>
 </p>
 
 # Benedictus RH
 
-I’m Benedictus Reynaldo Hartanto, a PhD student in Nagoya, Japan. I study wood biodegradation with hyperspectral imaging, X-ray CT, and Python, and build desktop software alongside my research.
+I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in their own windows. I'm also a PhD student in Nagoya, Japan, studying how wood breaks down with hyperspectral imaging, X-ray CT and Python.
 
-**[Explore the projects](#user-content-pinned-apps)**
+**Start with [IG Now](https://github.com/benedictusrey/IG-Now)**, the most-starred app.
 
-## Pinned apps
+## Apps
 
-Ranked by GitHub stars, updated daily.
+### Desktop clients
 
-<!-- pinned-projects:start -->
-<p><a href="#user-content-ig-now">IG&nbsp;Now</a> &nbsp; <a href="#user-content-whatsnow">WhatsNow</a> &nbsp; <a href="#user-content-tubenow">TubeNow</a> &nbsp; <a href="#user-content-tiktok-now">TikTok&nbsp;Now</a> &nbsp; <a href="#user-content-antigravity-monitor">Antigravity-Monitor</a> &nbsp; <a href="#user-content-monitormate">MonitorMate</a></p>
+| App | Get it |
+| --- | --- |
+| <img src="assets/apps/ig-now.png" width="40" alt=""> **[IG Now](https://github.com/benedictusrey/IG-Now)**<br>Instagram in its own window, with message notifications and media controls.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/IG-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/IG-Now/total?style=flat-square&color=7A4A2C) |
+| <img src="assets/apps/whatsnow.png" width="40" alt=""> **[WhatsNow](https://github.com/benedictusrey/WhatsNow-for-WhatsApp)**<br>Several WhatsApp accounts in one window, with App Lock and focus tools.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/WhatsNow-for-WhatsApp/total?style=flat-square&color=7A4A2C) |
+| <img src="assets/apps/tubenow.png" width="40" alt=""> **[TubeNow](https://github.com/benedictusrey/TubeNow)**<br>YouTube with local ad and tracker filtering and background playback.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/TubeNow/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/TubeNow/total?style=flat-square&color=7A4A2C) |
+| <img src="assets/apps/tiktok-now.png" width="40" alt=""> **[TikTok Now](https://github.com/benedictusrey/TikTok-Now)**<br>TikTok with desktop playback controls, photo carousels and a tray menu.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/TikTok-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/TikTok-Now/total?style=flat-square&color=7A4A2C) |
+| <img src="assets/apps/x-now.png" width="40" alt=""> **[X-Now](https://github.com/benedictusrey/X-Now)**<br>X in its own window, with tray controls and media saving.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/X-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/X-Now/total?style=flat-square&color=7A4A2C) |
 
-<a id="app-benedictusrey-ig-now" name="app-benedictusrey-ig-now"></a>
+### Windows utilities
 
-<h3><a href="https://github.com/benedictusrey/IG-Now">IG Now</a></h3>
+<div align="center">
+  <img src="assets/screenshots/monitormate-today.png" width="830" alt="MonitorMate's Today screen, with the daily light schedule and focus time.">
+  <br><sub>MonitorMate on Windows</sub>
+</div>
 
-<p><a href="https://github.com/benedictusrey/IG-Now"><img src="assets/projects/ig-now.webp" width="1800" height="900" alt="IG Now project artwork"></a></p>
+| App | Get it |
+| --- | --- |
+| <img src="assets/apps/tweak4windows.png" width="40" alt=""> **[Tweak4Windows](https://github.com/benedictusrey/Tweak4Windows)**<br>Reversible Windows tweaks, system inventory and maintenance previews, in one portable app.<br><sub>Windows 10/11, portable zip</sub> | **[Download](https://github.com/benedictusrey/Tweak4Windows/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&color=1E7F74) |
+| <img src="assets/apps/monitormate.png" width="40" alt=""> **[MonitorMate](https://github.com/benedictusrey/MonitorMate)**<br>Display comfort, break reminders and focus time. Data stays on this PC.<br><sub>Windows x64. Mac and Linux get a reminder preview.</sub> | **[Preview build](https://github.com/benedictusrey/MonitorMate/blob/main/docs/INSTALLATION.md)** |
 
-<p><strong>Keep Instagram messages and media in their own desktop window.</strong> Message notifications, video seeking, and volume controls.</p>
+### AI tools
 
-<p><a href="https://github.com/benedictusrey/IG-Now/releases/tag/v2.2.0">Release <strong>v2.2.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/IG-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/IG-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="IG Now: 11 GitHub stars at daily refresh"></a></p>
+| App | Get it |
+| --- | --- |
+| <img src="assets/apps/codex-monitor.png" width="40" alt=""> **[Codex-Monitor](https://github.com/benedictusrey/Codex-Monitor)**<br>See Codex reset deadlines, usage runway and token activity at a glance.<br><sub>Windows 10/11, 64-bit, portable zip</sub> | **[Download](https://github.com/benedictusrey/Codex-Monitor/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Codex-Monitor?style=flat-square&color=1E7F74) |
+| <img src="assets/apps/antigravity-monitor.png" width="40" alt=""> **[Antigravity-Monitor](https://github.com/benedictusrey/Antigravity-Monitor)**<br>Know your context and your model limits in Antigravity and VS Code.<br><sub>Needs Node.js 22+</sub> | **[Download](https://github.com/benedictusrey/Antigravity-Monitor/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Antigravity-Monitor?style=flat-square&color=1E7F74) |
 
-<p><a href="https://github.com/benedictusrey/IG-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/IG-Now/releases/latest">Download latest</a></p>
+Found a bug or have an idea for one of these apps? Open an issue on that app's repository. [Browse all repositories](https://github.com/benedictusrey?tab=repositories)
 
-<a id="app-benedictusrey-whatsnow-for-whatsapp" name="app-benedictusrey-whatsnow-for-whatsapp"></a>
+## Activity
 
-<h3><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp">WhatsNow</a></h3>
+Refreshed daily from GitHub.
 
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><img src="assets/projects/whatsnow.webp" width="1800" height="900" alt="WhatsNow project artwork"></a></p>
-
-<p><strong>Keep multiple WhatsApp accounts in one focused desktop workspace.</strong> Named accounts, Focus sessions, themes, and App Lock.</p>
-
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/tag/v2.6.3">Release <strong>v2.6.3</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="WhatsNow: 5 GitHub stars at daily refresh"></a></p>
-
-<p><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest">Download latest</a></p>
-
-## More pinned projects
-
-<a id="app-benedictusrey-tubenow" name="app-benedictusrey-tubenow"></a>
-
-<h3><a href="https://github.com/benedictusrey/TubeNow">TubeNow</a></h3>
-
-<p><strong>Watch YouTube in a dedicated desktop app.</strong> Local ad and tracker filtering, fullscreen controls, and background playback.</p>
-
-<p><a href="https://github.com/benedictusrey/TubeNow/releases/tag/v1.1.2">Release <strong>v1.1.2</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TubeNow/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TubeNow?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TubeNow: 5 GitHub stars at daily refresh"></a></p>
-
-<p><a href="https://github.com/benedictusrey/TubeNow"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TubeNow/releases/latest">Download latest</a></p>
-
-<a id="app-benedictusrey-tiktok-now" name="app-benedictusrey-tiktok-now"></a>
-
-<h3><a href="https://github.com/benedictusrey/TikTok-Now">TikTok Now</a></h3>
-
-<p><strong>Browse TikTok with desktop playback controls.</strong> Pause on minimize, photo carousels, and a system tray menu.</p>
-
-<p><a href="https://github.com/benedictusrey/TikTok-Now/releases/tag/v2.1.0">Release <strong>v2.1.0</strong></a> · Windows, macOS, Linux &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/TikTok-Now?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="TikTok Now: 4 GitHub stars at daily refresh"></a></p>
-
-<p><a href="https://github.com/benedictusrey/TikTok-Now"><strong>Explore project</strong></a> &nbsp; <a href="https://github.com/benedictusrey/TikTok-Now/releases/latest">Download latest</a></p>
-
-<a id="app-benedictusrey-antigravity-monitor" name="app-benedictusrey-antigravity-monitor"></a>
-
-<h3><a href="https://github.com/benedictusrey/Antigravity-Monitor">Antigravity-Monitor</a></h3>
-
-<p><strong>📊 Live context, conversation awareness, and model quota monitoring for Antigravity desktop, Antigravity IDE, and VS Code.</strong> See the repository for features and usage.</p>
-
-<p><a href="https://github.com/benedictusrey/Antigravity-Monitor/releases/tag/v1.0.0">Release <strong>v1.0.0</strong></a> &nbsp; <a href="https://github.com/benedictusrey/Antigravity-Monitor/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/Antigravity-Monitor?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="Antigravity-Monitor: 1 GitHub star at daily refresh"></a></p>
-
-<p><a href="https://github.com/benedictusrey/Antigravity-Monitor"><strong>Explore project</strong></a></p>
-
-<a id="app-benedictusrey-monitormate" name="app-benedictusrey-monitormate"></a>
-
-<h3><a href="https://github.com/benedictusrey/MonitorMate">MonitorMate</a></h3>
-
-<p><strong>Monitor comfort, break reminders and focus for Windows, with a smaller reminder preview for Linux and macOS. Local data, MIT licensed.</strong> See the repository for features and usage.</p>
-
-<p>No stable release is available. &nbsp; <a href="https://github.com/benedictusrey/MonitorMate/stargazers"><img src="https://img.shields.io/github/stars/benedictusrey/MonitorMate?style=flat-square&amp;label=stars&amp;color=6e7681&amp;labelColor=30363d" alt="MonitorMate: 1 GitHub star at daily refresh"></a></p>
-
-<p><a href="https://github.com/benedictusrey/MonitorMate"><strong>Explore project</strong></a></p>
-<!-- pinned-projects:end -->
-
-## Activity and updates
-
-Found something useful? Star its repository or share feedback through its issues.
-
-<details>
-  <summary>Contribution activity and language stats</summary>
-
-### GitHub progress
-
-<p align="center">
+<div align="center">
   <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-    <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="GitHub Profile Summary Cards: profile overview and contribution history for Benedictus RH." />
+    <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="680" alt="GitHub Profile Summary Cards: profile overview and contribution history for Benedictus RH.">
   </a>
-</p>
 
-<p align="center">
-  <img src="profile-summary-card-output/tokyonight/3-stats.svg" width="400" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to." />
-  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="400" alt="Top languages across public repositories." />
-</p>
+  <table>
+    <tr>
+      <td><img src="profile-summary-card-output/tokyonight/3-stats.svg" width="340" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to."></td>
+      <td><img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="340" alt="Top languages across public repositories."></td>
+    </tr>
+    <tr>
+      <td><img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="340" alt="Top languages by commit."></td>
+      <td><img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="340" alt="Commits by hour of the day, in UTC+9."></td>
+    </tr>
+  </table>
+</div>
 
-### A year of contributions, in 3D
+### A year of contributions
 
 <p align="center">
   <a href="https://github.com/yoshi389111/github-profile-3d-contrib">
-    <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="A 3D calendar of Benedictus RH's GitHub contributions over the past year, generated by GitHub Profile 3D Contrib." />
+    <img src="profile-3d-contrib/profile-night-rainbow.svg" width="600" alt="A 3D calendar of Benedictus RH's GitHub contributions over the past year, generated by GitHub Profile 3D Contrib.">
   </a>
 </p>
 
-Stats and calendar refresh daily. They reflect GitHub activity; each tool uses its own counting window.
+Language stats exclude this profile and the opencodex fork. Public code may not include my research.
 
-</details>
+Found something useful? Star its repository, or open an issue if something breaks.
 
 <details>
-  <summary>Tools & automatic updates</summary>
+  <summary>How this page updates</summary>
 
-[Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) · [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) · [Shields.io](https://github.com/badges/shields)
+A GitHub Actions workflow runs once a day. It regenerates the stats cards and the calendar, then commits the result. Built with [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards), [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) and [Shields.io](https://github.com/badges/shields). The hero banner lives in this repository too, and the workflow does not regenerate it.
 
-The [daily workflow](.github/workflows/profile-stats.yml) ranks public pinned projects by their current stars and features the leading two. Ties keep the original pin order. Refreshes are scheduled for 06:23 Asia/Jayapura; GitHub may queue them later. Star badges update through Shields.io and can briefly differ from the daily ordering.
-
-**Explore project** opens source and documentation; **Download latest** opens the published installers and release notes. Covers use the original app marks and are stored here, with no scheduled artwork generation.
-
-Cards and calendar are stored in this repository. Language cards exclude this profile and the opencodex fork; public code may not include my research.
-
-The supplied banner is stored in this repository and needs no scheduled refresh.
-
-Generator versions are pinned. [Dependabot](.github/dependabot.yml) checks weekly for action updates and proposes pull requests for review.
+The [workflow](.github/workflows/profile-stats.yml) and [Dependabot](.github/dependabot.yml) settings are in this repository. Dependabot checks action updates weekly and opens pull requests for review.
 
 </details>
-
-**[Browse all repositories](https://github.com/benedictusrey?tab=repositories)**
