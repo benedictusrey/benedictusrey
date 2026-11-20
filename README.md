@@ -43,6 +43,19 @@ I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in the
 
 Found a bug or have an idea for one of these apps? Open an issue on that app's repository. [Browse all repositories](https://github.com/benedictusrey?tab=repositories)
 
+## Research
+
+Software from my research on wood micro-CT scans.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/benedictusrey/cleanCT/main/assets/banner/Main%20Hero%20Banner_cleanCT%20Flagship%20%283D%20Before%20%26%20After%29.jpeg" width="830" alt="cleanCT flagship view: 3D before and after metal-base removal on a micro-CT wood scan.">
+  <br><sub>cleanCT on a micro-CT wood scan</sub>
+</div>
+
+| App | Get it |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/benedictusrey/cleanCT/main/assets/icons/icon_96x96.png" width="40" alt=""> **[cleanCT](https://github.com/benedictusrey/cleanCT)**<br>Removes the metal base from micro-CT wood scans without changing the source scan, then exports the inner wood region as DICOM and NIfTI.<br><sub>Windows, Linux. NVIDIA GPU optional.</sub> | **[Download](https://github.com/benedictusrey/cleanCT/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/cleanCT?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/cleanCT/total?style=flat-square&color=7A4A2C) |
+
 ## Activity
 
 Refreshed daily from GitHub.
