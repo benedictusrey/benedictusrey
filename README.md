@@ -14,19 +14,53 @@ I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in the
 
 ### Desktop clients
 
-| App | Get it |
-| --- | --- |
-| <img src="assets/apps/ig-now.png" width="40" alt=""> **[IG Now](https://github.com/benedictusrey/IG-Now)**<br>Instagram in its own window, with message notifications and media controls.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/IG-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/IG-Now/total?style=flat-square&color=7A4A2C) |
-| <img src="assets/apps/whatsnow.png" width="40" alt=""> **[WhatsNow](https://github.com/benedictusrey/WhatsNow-for-WhatsApp)**<br>Several WhatsApp accounts in one window, with App Lock and focus tools.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/WhatsNow-for-WhatsApp/total?style=flat-square&color=7A4A2C) |
-| <img src="assets/apps/tubenow.png" width="40" alt=""> **[TubeNow](https://github.com/benedictusrey/TubeNow)**<br>YouTube with local ad and tracker filtering and background playback.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/TubeNow/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/TubeNow/total?style=flat-square&color=7A4A2C) |
-| <img src="assets/apps/tiktok-now.png" width="40" alt=""> **[TikTok Now](https://github.com/benedictusrey/TikTok-Now)**<br>TikTok with desktop playback controls, photo carousels and a tray menu.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/TikTok-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/TikTok-Now/total?style=flat-square&color=7A4A2C) |
-| <img src="assets/apps/x-now.png" width="40" alt=""> **[X-Now](https://github.com/benedictusrey/X-Now)**<br>X in its own window, with tray controls and media saving.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/X-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/X-Now/total?style=flat-square&color=7A4A2C) |
+<table>
+<thead>
+<tr>
+<th align="left" width="715">App</th>
+<th align="left" width="130">Get it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/apps/ig-now.png" width="40" alt=""> <a href="https://github.com/benedictusrey/IG-Now"><strong>IG Now</strong></a><br>Instagram in its own window, with message notifications and media controls.<br><sub>Windows, macOS, Linux</sub></td>
+<td><a href="https://github.com/benedictusrey/IG-Now/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/IG-Now?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/IG-Now/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+<tr>
+<td><img src="assets/apps/tiktok-now.png" width="40" alt=""> <a href="https://github.com/benedictusrey/TikTok-Now"><strong>TikTok Now</strong></a><br>TikTok with desktop playback controls, photo carousels and a tray menu.<br><sub>Windows, macOS, Linux</sub></td>
+<td><a href="https://github.com/benedictusrey/TikTok-Now/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/TikTok-Now/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+<tr>
+<td><img src="assets/apps/whatsnow.png" width="40" alt=""> <a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp"><strong>WhatsNow</strong></a><br>Several WhatsApp accounts in one window, with App Lock and focus tools.<br><sub>Windows, macOS, Linux</sub></td>
+<td><a href="https://github.com/benedictusrey/WhatsNow-for-WhatsApp/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/WhatsNow-for-WhatsApp?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/WhatsNow-for-WhatsApp/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+<tr>
+<td><img src="assets/apps/x-now.png" width="40" alt=""> <a href="https://github.com/benedictusrey/X-Now"><strong>X-Now</strong></a><br>X in its own window, with tray controls and media saving.<br><sub>Windows, macOS, Linux</sub></td>
+<td><a href="https://github.com/benedictusrey/X-Now/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/X-Now/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+<tr>
+<td><img src="assets/apps/tubenow.png" width="40" alt=""> <a href="https://github.com/benedictusrey/TubeNow"><strong>TubeNow</strong></a><br>YouTube with local ad and tracker filtering and background playback.<br><sub>Windows, macOS, Linux</sub></td>
+<td><a href="https://github.com/benedictusrey/TubeNow/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/TubeNow?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/TubeNow/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+</tbody>
+</table>
 
 ### AI tools
 
-| App | Get it |
-| --- | --- |
-| <img src="assets/apps/antigravity-monitor.png" width="40" alt=""> **[Antigravity-Monitor](https://github.com/benedictusrey/Antigravity-Monitor)**<br>Know your context and your model limits in Antigravity and VS Code.<br><sub>Needs Node.js 22+</sub> | **[Download](https://github.com/benedictusrey/Antigravity-Monitor/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Antigravity-Monitor?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/Antigravity-Monitor/total?style=flat-square&color=7A4A2C) |
+<table>
+<thead>
+<tr>
+<th align="left" width="715">App</th>
+<th align="left" width="130">Get it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/apps/antigravity-monitor.png" width="40" alt=""> <a href="https://github.com/benedictusrey/Antigravity-Monitor"><strong>Antigravity-Monitor</strong></a><br>Know your context and your model limits in Antigravity and VS Code.<br><sub>Needs Node.js 22+</sub></td>
+<td><a href="https://github.com/benedictusrey/Antigravity-Monitor/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/Antigravity-Monitor?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/Antigravity-Monitor/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+</tbody>
+</table>
 
 ### Windows utilities
 
@@ -35,10 +69,24 @@ I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in the
   <br><sub>MonitorMate on Windows</sub>
 </div>
 
-| App | Get it |
-| --- | --- |
-| <img src="assets/apps/tweak4windows.png" width="40" alt=""> **[Tweak4Windows](https://github.com/benedictusrey/Tweak4Windows)**<br>Reversible Windows tweaks, system inventory and maintenance previews, in one portable app.<br><sub>Windows 10/11, portable zip</sub> | **[Download](https://github.com/benedictusrey/Tweak4Windows/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/Tweak4Windows/total?style=flat-square&color=7A4A2C) |
-| <img src="assets/apps/monitormate.png" width="40" alt=""> **[MonitorMate](https://github.com/benedictusrey/MonitorMate)**<br>Display comfort, break reminders and focus time. Data stays on this PC.<br><sub>Windows x64. Mac and Linux get a reminder preview.</sub> | **[Preview build](https://github.com/benedictusrey/MonitorMate/blob/main/docs/INSTALLATION.md)**<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/MonitorMate/total?style=flat-square&color=7A4A2C) |
+<table>
+<thead>
+<tr>
+<th align="left" width="715">App</th>
+<th align="left" width="130">Get it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/apps/monitormate.png" width="40" alt=""> <a href="https://github.com/benedictusrey/MonitorMate"><strong>MonitorMate</strong></a><br>Display comfort, break reminders and focus time. Data stays on this PC.<br><sub>Windows x64. Mac and Linux get a reminder preview.</sub></td>
+<td><a href="https://github.com/benedictusrey/MonitorMate/blob/main/docs/INSTALLATION.md"><strong>Preview build</strong></a><br><img src="https://img.shields.io/github/downloads/benedictusrey/MonitorMate/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+<tr>
+<td><img src="assets/apps/tweak4windows.png" width="40" alt=""> <a href="https://github.com/benedictusrey/Tweak4Windows"><strong>Tweak4Windows</strong></a><br>Reversible Windows tweaks, system inventory and maintenance previews, in one portable app.<br><sub>Windows 10/11, portable zip</sub></td>
+<td><a href="https://github.com/benedictusrey/Tweak4Windows/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/Tweak4Windows/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+</tbody>
+</table>
 
 Found a bug or have an idea for one of these apps? Open an issue on that app's repository. [Browse all repositories](https://github.com/benedictusrey?tab=repositories)
 
@@ -51,9 +99,20 @@ Software from my research on wood micro-CT scans.
   <br><sub>cleanCT on a micro-CT wood scan</sub>
 </div>
 
-| App | Get it |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/benedictusrey/cleanCT/main/assets/icons/icon_96x96.png" width="40" alt=""> **[cleanCT](https://github.com/benedictusrey/cleanCT)**<br>Removes the metal base from micro-CT wood scans without changing the source scan, then exports the inner wood region as DICOM and NIfTI.<br><sub>Windows, Linux. NVIDIA GPU optional.</sub> | **[Download](https://github.com/benedictusrey/cleanCT/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/cleanCT?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/cleanCT/total?style=flat-square&color=7A4A2C) |
+<table>
+<thead>
+<tr>
+<th align="left" width="715">App</th>
+<th align="left" width="130">Get it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://raw.githubusercontent.com/benedictusrey/cleanCT/main/assets/icons/icon_96x96.png" width="40" alt=""> <a href="https://github.com/benedictusrey/cleanCT"><strong>cleanCT</strong></a><br>Removes the metal base from micro-CT wood scans without changing the source scan, then exports the inner wood region as DICOM and NIfTI.<br><sub>Windows, Linux. NVIDIA GPU optional.</sub></td>
+<td><a href="https://github.com/benedictusrey/cleanCT/releases/latest"><strong>Download</strong></a><br><img src="https://img.shields.io/github/v/release/benedictusrey/cleanCT?style=flat-square&amp;color=1E7F74" alt="Latest release"><br><img src="https://img.shields.io/github/downloads/benedictusrey/cleanCT/total?style=flat-square&amp;color=7A4A2C" alt="Total downloads"></td>
+</tr>
+</tbody>
+</table>
 
 ## Activity
 
