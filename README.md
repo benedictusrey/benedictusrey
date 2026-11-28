@@ -22,6 +22,12 @@ I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in the
 | <img src="assets/apps/tiktok-now.png" width="40" alt=""> **[TikTok Now](https://github.com/benedictusrey/TikTok-Now)**<br>TikTok with desktop playback controls, photo carousels and a tray menu.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/TikTok-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/TikTok-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/TikTok-Now/total?style=flat-square&color=7A4A2C) |
 | <img src="assets/apps/x-now.png" width="40" alt=""> **[X-Now](https://github.com/benedictusrey/X-Now)**<br>X in its own window, with tray controls and media saving.<br><sub>Windows, macOS, Linux</sub> | **[Download](https://github.com/benedictusrey/X-Now/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/X-Now?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/X-Now/total?style=flat-square&color=7A4A2C) |
 
+### AI tools
+
+| App | Get it |
+| --- | --- |
+| <img src="assets/apps/antigravity-monitor.png" width="40" alt=""> **[Antigravity-Monitor](https://github.com/benedictusrey/Antigravity-Monitor)**<br>Know your context and your model limits in Antigravity and VS Code.<br><sub>Needs Node.js 22+</sub> | **[Download](https://github.com/benedictusrey/Antigravity-Monitor/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Antigravity-Monitor?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/Antigravity-Monitor/total?style=flat-square&color=7A4A2C) |
+
 ### Windows utilities
 
 <div align="center">
@@ -33,12 +39,6 @@ I build desktop apps that keep Instagram, WhatsApp, YouTube, TikTok and X in the
 | --- | --- |
 | <img src="assets/apps/tweak4windows.png" width="40" alt=""> **[Tweak4Windows](https://github.com/benedictusrey/Tweak4Windows)**<br>Reversible Windows tweaks, system inventory and maintenance previews, in one portable app.<br><sub>Windows 10/11, portable zip</sub> | **[Download](https://github.com/benedictusrey/Tweak4Windows/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Tweak4Windows?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/Tweak4Windows/total?style=flat-square&color=7A4A2C) |
 | <img src="assets/apps/monitormate.png" width="40" alt=""> **[MonitorMate](https://github.com/benedictusrey/MonitorMate)**<br>Display comfort, break reminders and focus time. Data stays on this PC.<br><sub>Windows x64. Mac and Linux get a reminder preview.</sub> | **[Preview build](https://github.com/benedictusrey/MonitorMate/blob/main/docs/INSTALLATION.md)**<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/MonitorMate/total?style=flat-square&color=7A4A2C) |
-
-### AI tools
-
-| App | Get it |
-| --- | --- |
-| <img src="assets/apps/antigravity-monitor.png" width="40" alt=""> **[Antigravity-Monitor](https://github.com/benedictusrey/Antigravity-Monitor)**<br>Know your context and your model limits in Antigravity and VS Code.<br><sub>Needs Node.js 22+</sub> | **[Download](https://github.com/benedictusrey/Antigravity-Monitor/releases/latest)**<br>![Latest release](https://img.shields.io/github/v/release/benedictusrey/Antigravity-Monitor?style=flat-square&color=1E7F74)<br>![Total downloads](https://img.shields.io/github/downloads/benedictusrey/Antigravity-Monitor/total?style=flat-square&color=7A4A2C) |
 
 Found a bug or have an idea for one of these apps? Open an issue on that app's repository. [Browse all repositories](https://github.com/benedictusrey?tab=repositories)
 
